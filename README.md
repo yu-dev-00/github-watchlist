@@ -8,6 +8,7 @@
 - 機械管理用の正本: `repositories.json`
 
 最終移行日: 2026-09-19
+最終更新日: 2026-09-21
 
 | リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
 |---|---|---|---|---|
@@ -66,3 +67,11 @@
 | **jordan-gibbs/hyperresearch** | AI Agent / Knowledge Base | Web調査結果を永続的な検索可能Wikiへ蓄積する | 単発Deep Researchではなく継続的な知識ベースとして残す設計 | https://github.com/jordan-gibbs/hyperresearch |
 | **ayghri/i-have-adhd** | Coding Agent / Output Skill | Coding Agentの回答を結論・次の行動優先の短い形式へ整える | 能力追加ではなくAgentの出力スタイルをSkillとして制御する | https://github.com/ayghri/i-have-adhd |
 | **mattpocock/skills** | Coding Agent / Skills | 仕様化、TDD、実装、レビュー、チケット分割など開発工程をSkill化する | 実開発フローそのものを再利用可能なSkillとして体系化している | https://github.com/mattpocock/skills |
+| **anthropics/knowledge-work-plugins** | AI Agent / Knowledge Work | 業務職種ごとのSkills、Connectors、Slash Commands、Sub-agentsをClaudeへ追加する | Product、Sales、Support、Legal、Finance、Dataなど11種の業務PluginをAnthropic公式が公開し、Claude Codeでも利用できる | https://github.com/anthropics/knowledge-work-plugins |
+| **yynxxxxx/Codex-X** | Coding Agent / Codex Tool | Codex Desktop・CLIのPrompt、Provider、Session、Skills、MCP、設定をGUIで一元管理する | 複数Provider/APIや会話履歴、config.toml、Token使用量まで可視化するクロスプラットフォーム管理ツール | https://github.com/yynxxxxx/Codex-X |
+| **cloudflare/security-audit-skill** | Coding Agent / Security Skill | Coding Agentに多段階のセキュリティ監査ワークフローを追加する | 偵察→Coverage管理→脆弱性探索→独立検証→機械可読なfinding→再検証までをSkillとして定式化している | https://github.com/cloudflare/security-audit-skill |
+| **lahfir/agent-desktop** | AI Agent / Computer Use | AI AgentからOSのAccessibility Treeを使ってデスクトップアプリを操作する | 画像のピクセル推測ではなく安定したUI参照を使い、Rust CLI・C-ABI・構造化JSONでAgent操作を堅牢化する | https://github.com/lahfir/agent-desktop |
+| **openai/tunnel-client** | AI Agent / MCP・Network | ローカルやプライベートネットワーク上のMCP ServerをChatGPTやCodexへ安全に接続する | MCP Serverを公開Internetへ露出せずSecure MCP Tunnel経由で接続でき、VM・Kubernetes・ローカルPCにも対応する | https://github.com/openai/tunnel-client |
+| **vercel-labs/json-render** | AI / Generative UI | 自然言語から制約付きの動的UIを生成・レンダリングする | AIが定義済みComponent Catalog内だけでJSON UIを生成し、React・Vue・Svelte・React Native・3Dなどへ展開できる | https://github.com/vercel-labs/json-render |
+| **withastro/flue** | AI Agent / Agent Framework | TypeScriptでSandbox、Skills、Tools、Subagents、永続実行を組み合わせた自律Agentを構築する | Agentを関数として定義し、ローカル/Remote SandboxとDurabilityを組み込めるAgent Harness Framework | https://github.com/withastro/flue |
+| **docling-project/docling** | AI / Document AI | PDFやOffice文書、画像、音声などをLLM・RAG向けの構造化データへ変換する | 高度なPDFレイアウト・表・式・OCR解析に加え、Markdown/JSON出力、MCP、ローカル実行、動画・音声解析まで対応する | https://github.com/docling-project/docling |
