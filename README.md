@@ -8,7 +8,7 @@
 - 機械管理用の正本: `repositories.json`
 
 最終移行日: 2026-09-19
-最終更新日: 2026-09-21
+最終更新日: 2026-09-23
 
 | リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
 |---|---|---|---|---|
@@ -75,3 +75,9 @@
 | **vercel-labs/json-render** | AI / Generative UI | 自然言語から制約付きの動的UIを生成・レンダリングする | AIが定義済みComponent Catalog内だけでJSON UIを生成し、React・Vue・Svelte・React Native・3Dなどへ展開できる | https://github.com/vercel-labs/json-render |
 | **withastro/flue** | AI Agent / Agent Framework | TypeScriptでSandbox、Skills、Tools、Subagents、永続実行を組み合わせた自律Agentを構築する | Agentを関数として定義し、ローカル/Remote SandboxとDurabilityを組み込めるAgent Harness Framework | https://github.com/withastro/flue |
 | **docling-project/docling** | AI / Document AI | PDFやOffice文書、画像、音声などをLLM・RAG向けの構造化データへ変換する | 高度なPDFレイアウト・表・式・OCR解析に加え、Markdown/JSON出力、MCP、ローカル実行、動画・音声解析まで対応する | https://github.com/docling-project/docling |
+| **kerpopule/hermes-jev-skills** | AI Agent / Routing・Skills | HermesやClaude Code、Codexへ高速なモデルルーティング、メモリ選別、Skill選択、Computer/Browser Useの判断支援を追加する | TypeSafeのJevを使い、文章生成ではなく選択・スコアリングなどの小さな判断を高速・低コストに分離する。Hermes向けPluginに加えて汎用SKILL.mdとしても利用できる | https://github.com/kerpopule/hermes-jev-skills |
+| **typesafe-ai/skills** | AI Agent / Skills・Decision | TypeSafeのSystem Oneモデルを使い、ルーティング、ランキング、抽出、検証などの型付き判断をAgentワークフローへ組み込む | Jevなどのモデルを自然言語生成ではなくtyped judgment/probabilityとして使い、LLMのPrompt→Parse処理を小さな決定プリミティブへ置き換える設計 | https://github.com/typesafe-ai/skills |
+| **OpenHands/OpenHands** | Coding Agent / Autonomous Development | AI Agentがコード理解・編集・コマンド実行・デバッグなどのソフトウェア開発タスクを自律的に進める | Agent SDK、CLI、ローカルGUIを備え、ローカル実行から多数Agentのスケールまで扱える代表的なオープンソース開発Agent基盤 | https://github.com/OpenHands/OpenHands |
+| **TauricResearch/TradingAgents** | Multi-Agent / 金融・投資 | 複数のLLM Agentが市場・ニュース・ファンダメンタルズを分析し、議論して投資判断を組み立てる | LangGraphベースでAnalyst、Researcher、Trader、Portfolio Managerなどを役割分担し、チェックポイントやバックテストも備える金融Multi-Agentフレームワーク | https://github.com/TauricResearch/TradingAgents |
+| **danny-avila/LibreChat** | AI / Multi-Model Chat Platform | OpenAI、Anthropic、Googleなど複数AIプロバイダを1つのセルフホストUIから利用する | マルチモデル切替に加え、Agents、MCP、Artifacts、Code Interpreter、検索、マルチユーザー認証まで統合したオープンソースAIチャット基盤 | https://github.com/danny-avila/LibreChat |
+| **CopilotKit/OpenBot** | AI Agent / Computer Use・Workspace | AI Agentごとに専用ブラウザ、ファイル領域、ツールを持つ実行用コンピュータを割り当て、Webやソフト操作を行わせる | 各Botに独立したComputerを与え、操作前のPolicy判定と操作後のAuditを通す設計。AG-UI Agentを自社インフラ上のAI Coworkerとして動かせる | https://github.com/CopilotKit/OpenBot |
