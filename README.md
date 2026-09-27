@@ -8,7 +8,7 @@
 - 機械管理用の正本: `repositories.json`
 
 最終移行日: 2026-09-19
-最終更新日: 2026-09-23
+最終更新日: 2026-09-28
 
 | リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
 |---|---|---|---|---|
@@ -81,3 +81,11 @@
 | **TauricResearch/TradingAgents** | Multi-Agent / 金融・投資 | 複数のLLM Agentが市場・ニュース・ファンダメンタルズを分析し、議論して投資判断を組み立てる | LangGraphベースでAnalyst、Researcher、Trader、Portfolio Managerなどを役割分担し、チェックポイントやバックテストも備える金融Multi-Agentフレームワーク | https://github.com/TauricResearch/TradingAgents |
 | **danny-avila/LibreChat** | AI / Multi-Model Chat Platform | OpenAI、Anthropic、Googleなど複数AIプロバイダを1つのセルフホストUIから利用する | マルチモデル切替に加え、Agents、MCP、Artifacts、Code Interpreter、検索、マルチユーザー認証まで統合したオープンソースAIチャット基盤 | https://github.com/danny-avila/LibreChat |
 | **CopilotKit/OpenBot** | AI Agent / Computer Use・Workspace | AI Agentごとに専用ブラウザ、ファイル領域、ツールを持つ実行用コンピュータを割り当て、Webやソフト操作を行わせる | 各Botに独立したComputerを与え、操作前のPolicy判定と操作後のAuditを通す設計。AG-UI Agentを自社インフラ上のAI Coworkerとして動かせる | https://github.com/CopilotKit/OpenBot |
+| **vectorize-io/hindsight** | AI Agent / Memory | AI Agentに長期記憶を追加し、事実・経験・観察・メンタルモデルを蓄積・想起・内省する | 会話履歴の検索だけでなく継続的に学習するMemory Systemを志向し、MCPやCoding Agentにも統合できる | https://github.com/vectorize-io/hindsight |
+| **mvschwarz/openrig** | Multi-Agent / Coding Harness | Claude CodeやCodexなど複数Coding Agentをチームとして定義し、役割分担・連携・レビューを一つのRigで運用する | 永続セッション、TUI、キュー、スナップショット・復旧などを持ち、複数Agentを継続的な開発チームとして管理できる | https://github.com/mvschwarz/openrig |
+| **dream-num/univer** | AI Agent / Office Automation | Spreadsheet・Docs・SlidesなどのOfficeコンテンツを構造化APIから生成・編集し、AI Agentの作業対象にする | ブラウザとNode.jsで同じAPIを利用でき、Agentが内容やレイアウトを検証しながらOffice文書を扱える | https://github.com/dream-num/univer |
+| **superdesigndev/treg** | AI Agent / Tool Router | 多数の外部APIやチーム内のCLI・Skillを一つの接続先からAgentに提供する | ツール探索・呼出し・接続設定をサーバー側へ集約し、チームのAgentから共通利用できる。セルフホストにも対応する | https://github.com/superdesigndev/treg |
+| **google/ax** | AI Agent / Orchestration Runtime | Agentタスク・Workspace・Modelを宣言的に定義し、隔離Sandbox上で大規模に実行・監視する | Kubernetesに似た操作感でTask・Workspace・Modelを管理し、Git・MCP・Skillsの事前配線やsuspend/resume、sshを備える | https://github.com/google/ax |
+| **Tencent/BrowserSkill** | AI Agent / Browser Automation | Claude CodeやCodexなどのAgentからChrome・Edgeを操作し、閲覧・フォーム入力・デバッグ・スクリーンショットなどを行う | CLIとブラウザ拡張を組み合わせ、専用Agent Window、明示的なタブ借用、操作履歴・監査を提供する | https://github.com/Tencent/BrowserSkill |
+| **NVIDIA/SkillSpector** | AI Agent / Skill Security | Agent Skillをインストール前に解析し、安全性やSupply Chain上のリスクを検査する | Git・URL・ZIP・ローカルSkillを静的解析と任意のLLM解析で検査し、JSON・Markdown・SARIFやMCP ServerでCIへ組み込める | https://github.com/NVIDIA/SkillSpector |
+| **rohitg00/ai-engineering-from-scratch** | AI / 学習・教材 | AI Engineeringを基礎からLLM、MCP、Agent Engineering、Agent Skillsまで手を動かして学ぶ | 500超のLessonと再利用可能なPrompt・Skill・Agent・MCP成果物を含み、日本語入口やCoding Agent向けTutor Skillも用意されている | https://github.com/rohitg00/ai-engineering-from-scratch |

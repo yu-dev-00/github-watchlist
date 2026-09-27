@@ -416,7 +416,55 @@
       "capability": "AI Agentごとに専用ブラウザ、ファイル領域、ツールを持つ実行用コンピュータを割り当て、Webやソフト操作を行わせる",
       "highlight": "各Botに独立したComputerを与え、操作前のPolicy判定と操作後のAuditを通す設計。AG-UI Agentを自社インフラ上のAI Coworkerとして動かせる",
       "url": "https://github.com/CopilotKit/OpenBot"
+    },
+    "vectorize-io/hindsight": {
+      "category": "AI Agent / Memory",
+      "capability": "AI Agentに長期記憶を追加し、事実・経験・観察・メンタルモデルを蓄積・想起・内省する",
+      "highlight": "会話履歴の検索だけでなく継続的に学習するMemory Systemを志向し、MCPやCoding Agentにも統合できる",
+      "url": "https://github.com/vectorize-io/hindsight"
+    },
+    "mvschwarz/openrig": {
+      "category": "Multi-Agent / Coding Harness",
+      "capability": "Claude CodeやCodexなど複数Coding Agentをチームとして定義し、役割分担・連携・レビューを一つのRigで運用する",
+      "highlight": "永続セッション、TUI、キュー、スナップショット・復旧などを持ち、複数Agentを継続的な開発チームとして管理できる",
+      "url": "https://github.com/mvschwarz/openrig"
+    },
+    "dream-num/univer": {
+      "category": "AI Agent / Office Automation",
+      "capability": "Spreadsheet・Docs・SlidesなどのOfficeコンテンツを構造化APIから生成・編集し、AI Agentの作業対象にする",
+      "highlight": "ブラウザとNode.jsで同じAPIを利用でき、Agentが内容やレイアウトを検証しながらOffice文書を扱える",
+      "url": "https://github.com/dream-num/univer"
+    },
+    "superdesigndev/treg": {
+      "category": "AI Agent / Tool Router",
+      "capability": "多数の外部APIやチーム内のCLI・Skillを一つの接続先からAgentに提供する",
+      "highlight": "ツール探索・呼出し・接続設定をサーバー側へ集約し、チームのAgentから共通利用できる。セルフホストにも対応する",
+      "url": "https://github.com/superdesigndev/treg"
+    },
+    "google/ax": {
+      "category": "AI Agent / Orchestration Runtime",
+      "capability": "Agentタスク・Workspace・Modelを宣言的に定義し、隔離Sandbox上で大規模に実行・監視する",
+      "highlight": "Kubernetesに似た操作感でTask・Workspace・Modelを管理し、Git・MCP・Skillsの事前配線やsuspend/resume、sshを備える",
+      "url": "https://github.com/google/ax"
+    },
+    "Tencent/BrowserSkill": {
+      "category": "AI Agent / Browser Automation",
+      "capability": "Claude CodeやCodexなどのAgentからChrome・Edgeを操作し、閲覧・フォーム入力・デバッグ・スクリーンショットなどを行う",
+      "highlight": "CLIとブラウザ拡張を組み合わせ、専用Agent Window、明示的なタブ借用、操作履歴・監査を提供する",
+      "url": "https://github.com/Tencent/BrowserSkill"
+    },
+    "NVIDIA/SkillSpector": {
+      "category": "AI Agent / Skill Security",
+      "capability": "Agent Skillをインストール前に解析し、安全性やSupply Chain上のリスクを検査する",
+      "highlight": "Git・URL・ZIP・ローカルSkillを静的解析と任意のLLM解析で検査し、JSON・Markdown・SARIFやMCP ServerでCIへ組み込める",
+      "url": "https://github.com/NVIDIA/SkillSpector"
+    },
+    "rohitg00/ai-engineering-from-scratch": {
+      "category": "AI / 学習・教材",
+      "capability": "AI Engineeringを基礎からLLM、MCP、Agent Engineering、Agent Skillsまで手を動かして学ぶ",
+      "highlight": "500超のLessonと再利用可能なPrompt・Skill・Agent・MCP成果物を含み、日本語入口やCoding Agent向けTutor Skillも用意されている",
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
     }
   },
-  "updated_at": "2026-09-23"
+  "updated_at": "2026-09-28"
 }
