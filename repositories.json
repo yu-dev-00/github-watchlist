@@ -464,6 +464,12 @@
       "capability": "AI Engineeringを基礎からLLM、MCP、Agent Engineering、Agent Skillsまで手を動かして学ぶ",
       "highlight": "500超のLessonと再利用可能なPrompt・Skill・Agent・MCP成果物を含み、日本語入口やCoding Agent向けTutor Skillも用意されている",
       "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+    },
+    "stablyai/orca": {
+      "category": "Coding Agent / Orchestration・IDE",
+      "capability": "Codex、Claude Code、OpenCodeなど複数のCLI Coding Agentを並列worktreeで実行・比較・レビューする",
+      "highlight": "Agentごとの独立Git worktree、モバイルからの監視・指示、GitHub/Linear連携、SSH先での実行、AI Diffレビュー、Computer Useまで統合したAgent前提の開発環境",
+      "url": "https://github.com/stablyai/orca"
     }
   },
   "updated_at": "2026-09-28"
