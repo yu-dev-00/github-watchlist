@@ -476,6 +476,18 @@
       "capability": "PDFや長文書を階層ツリーとして索引化し、ベクトル検索ではなくLLMの推論で関連箇所をたどって取得する",
       "highlight": "Vector DBや固定Chunkingを使わず、文書構造とコンテキストを保ったまま検索できるReasoning-based RAG。長い技術文書・規格書・論文・契約書などに向く",
       "url": "https://github.com/VectifyAI/PageIndex"
+    },
+    "google/mantis": {
+      "category": "Coding Agent / Security・Vulnerability Research",
+      "capability": "AI Agentでコードベースの脅威モデル作成、脆弱性仮説生成、検証、再現、修正、再検証までを多段階で実行する",
+      "highlight": "Google公開のセキュリティ研究向けAgent Harness。履歴分析、Semantic Index、重複排除、Severity校正、脆弱性チェーン探索まで含む。隔離環境での利用を強く前提とする",
+      "url": "https://github.com/google/mantis"
+    },
+    "Tencent/WeKnora": {
+      "category": "AI / Knowledge Platform・RAG",
+      "capability": "企業文書を取り込み、RAG検索、Multi-step Agent、Wiki/Knowledge Graph、MCP、長期Memoryまで一つの知識基盤で扱う",
+      "highlight": "PDFやOffice文書、複数データソースを統合し、RAG・Agent・Wikiを同じKnowledge Base上で利用できる。Self-host、Ollama、BrowserSkill、Sandbox、RBACにも対応する",
+      "url": "https://github.com/Tencent/WeKnora"
     }
   },
   "updated_at": "2026-09-28"
