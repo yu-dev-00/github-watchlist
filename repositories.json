@@ -470,6 +470,12 @@
       "capability": "Codex、Claude Code、OpenCodeなど複数のCLI Coding Agentを並列worktreeで実行・比較・レビューする",
       "highlight": "Agentごとの独立Git worktree、モバイルからの監視・指示、GitHub/Linear連携、SSH先での実行、AI Diffレビュー、Computer Useまで統合したAgent前提の開発環境",
       "url": "https://github.com/stablyai/orca"
+    },
+    "VectifyAI/PageIndex": {
+      "category": "AI / RAG・Document Retrieval",
+      "capability": "PDFや長文書を階層ツリーとして索引化し、ベクトル検索ではなくLLMの推論で関連箇所をたどって取得する",
+      "highlight": "Vector DBや固定Chunkingを使わず、文書構造とコンテキストを保ったまま検索できるReasoning-based RAG。長い技術文書・規格書・論文・契約書などに向く",
+      "url": "https://github.com/VectifyAI/PageIndex"
     }
   },
   "updated_at": "2026-09-28"
