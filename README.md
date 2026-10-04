@@ -8,7 +8,7 @@
 - 機械管理用の正本: `repositories.json`
 
 最終移行日: 2026-09-19
-最終更新日: 2026-09-28
+最終更新日: 2026-10-05
 
 | リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
 |---|---|---|---|---|
@@ -93,3 +93,14 @@
 | **VectifyAI/PageIndex** | AI / RAG・Document Retrieval | PDFや長文書を階層ツリーとして索引化し、ベクトル検索ではなくLLMの推論で関連箇所をたどって取得する | Vector DBや固定Chunkingを使わず、文書構造とコンテキストを保ったまま検索できるReasoning-based RAG。長い技術文書・規格書・論文・契約書などに向く | https://github.com/VectifyAI/PageIndex |
 | **google/mantis** | Coding Agent / Security・Vulnerability Research | AI Agentでコードベースの脅威モデル作成、脆弱性仮説生成、検証、再現、修正、再検証までを多段階で実行する | Google公開のセキュリティ研究向けAgent Harness。履歴分析、Semantic Index、重複排除、Severity校正、脆弱性チェーン探索まで含む。隔離環境での利用を強く前提とする | https://github.com/google/mantis |
 | **Tencent/WeKnora** | AI / Knowledge Platform・RAG | 企業文書を取り込み、RAG検索、Multi-step Agent、Wiki/Knowledge Graph、MCP、長期Memoryまで一つの知識基盤で扱う | PDFやOffice文書、複数データソースを統合し、RAG・Agent・Wikiを同じKnowledge Base上で利用できる。Self-host、Ollama、BrowserSkill、Sandbox、RBACにも対応する | https://github.com/Tencent/WeKnora |
+| **tester-army/e2e** | AI / E2E Testing | 自然言語でWeb・モバイルアプリの操作目標を記述し、Agentが実際に操作してE2Eテストを実行する | Agentが成功した操作を記録し、次回以降はアプリが変わるまでモデル呼び出しなしで再生できる。WebとiOS/Androidの両方に対応する | https://github.com/tester-army/e2e |
+| **pbakaus/impeccable** | Coding Agent / UI・Design Skill | Coding AgentへUI設計・レビュー・改善・ブラウザ反復のためのデザインSkillとコマンド群を追加する | 24コマンドと61個の決定論的検出ルールを持ち、AI生成UIにありがちな見た目の癖を抑えつつ、PRODUCT.mdやDESIGN.mdで設計文脈を継続利用する | https://github.com/pbakaus/impeccable |
+| **thedotmack/claude-mem** | AI Agent / Memory・Context | Agentの作業内容をセッション横断で圧縮・保存し、後続セッションへ関連コンテキストを再注入する | Claude Code向けに始まった永続Memory基盤で、現在はCodex・Gemini・Copilot・OpenCodeなど複数Agentとの併用を意識している | https://github.com/thedotmack/claude-mem |
+| **pingdotgg/t3code** | Coding Agent / Control Surface | ローカルPC上のClaude Code、Codex、Cursor、OpenCodeなど複数Coding AgentをWeb・Desktop・Mobile UIから操作する | 既存CLI Agentを置き換えずに外側から制御するAgent Harnessの操作面で、スマホからの遠隔操作にも対応する | https://github.com/pingdotgg/t3code |
+| **openai/plugins** | Coding Agent / Plugins | Codex向けPluginの公式サンプルと、Skill・MCP・Agent・Command・Hookを組み合わせるPlugin構成例を提供する | OpenAI公式のPlugin Catalogで、Figma、Notion、Web/iOS/macOS開発、Expo、Remotion、Google Slidesなど実用的な統合例をまとめている | https://github.com/openai/plugins |
+| **NousResearch/hermes-agent** | AI Agent / Self-Improving Agent | 経験からSkillを生成・改善し、長期Memory、サブAgent、Scheduler、複数メッセージング経路を持つ自律Agentを構築・実行する | 自己改善ループとAgent-curated Memoryを内蔵し、ローカル・Docker・SSH・Serverlessなど複数実行基盤へ展開できる | https://github.com/NousResearch/hermes-agent |
+| **garrytan/gstack** | Coding Agent / Development Workflow | Coding Agentへ企画・設計・実装レビュー・QA・セキュリティ・リリースなど役割別の開発Skillを追加する | CEO、Eng Manager、Designer、Reviewer、QA、Security、Releaseなどの役割を分け、ソフトウェア開発工程全体をSkillベースで運用する | https://github.com/garrytan/gstack |
+| **antirez/ds4** | Local AI / Inference | DeepSeek V4系やGLM 5系など一部の大型Open-weightモデルをMac、CUDA、ROCmなどのローカル環境で高速推論する | 汎用ランタイムではなく対象モデルを絞って最適化し、SSD Streaming、複数GPU、RDMA、Pipeline/Tensor Parallelまで扱う | https://github.com/antirez/ds4 |
+| **heygen-com/hyperframes** | AI / Agentic Video | HTML・CSS・Media・Seekable Animationを使い、Agentから決定論的なMP4動画を生成する | Claude Code、Codex、Cursor、Gemini CLI向けSkillを備え、Web表現をそのまま動画生成ワークフローへ使える | https://github.com/heygen-com/hyperframes |
+| **cathrynlavery/diagram-design** | Coding Agent / Diagram・Visualization | Claude CodeやCodexからアーキテクチャ図、フロー、Sequence、ER、Ganttなど多数の編集品質の図をHTML+SVGで生成する | Mermaid依存を避け、静的HTMLを基本に必要ならMotionも追加できる。既存のdraw.io・Mermaid・Excalidraw図の再描画にも対応する | https://github.com/cathrynlavery/diagram-design |
+| **ruvnet/ruflo** | Multi-Agent / Agent Harness | Claude CodeやCodexへ複数AgentのSwarm、長期Memory、Sandbox、学習ループ、Federationを追加して協調実行する | 100以上の専門Agentを束ねるMeta-Harnessで、タスクルーティング・自己学習・クロスマシン連携まで一つの実行層として扱う | https://github.com/ruvnet/ruflo |
