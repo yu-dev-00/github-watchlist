@@ -488,7 +488,73 @@
       "capability": "企業文書を取り込み、RAG検索、Multi-step Agent、Wiki/Knowledge Graph、MCP、長期Memoryまで一つの知識基盤で扱う",
       "highlight": "PDFやOffice文書、複数データソースを統合し、RAG・Agent・Wikiを同じKnowledge Base上で利用できる。Self-host、Ollama、BrowserSkill、Sandbox、RBACにも対応する",
       "url": "https://github.com/Tencent/WeKnora"
+    },
+    "tester-army/e2e": {
+      "category": "AI / E2E Testing",
+      "capability": "自然言語でWeb・モバイルアプリの操作目標を記述し、Agentが実際に操作してE2Eテストを実行する",
+      "highlight": "Agentが成功した操作を記録し、次回以降はアプリが変わるまでモデル呼び出しなしで再生できる。Playwright系WebとiOS/Androidの両方に対応する",
+      "url": "https://github.com/tester-army/e2e"
+    },
+    "pbakaus/impeccable": {
+      "category": "Coding Agent / UI・Design Skill",
+      "capability": "Coding AgentへUI設計・レビュー・改善・ブラウザ反復のためのデザインSkillとコマンド群を追加する",
+      "highlight": "24コマンドと61個の決定論的検出ルールを持ち、AI生成UIにありがちな見た目の癖を抑えつつ、PRODUCT.mdやDESIGN.mdで設計文脈を継続利用する",
+      "url": "https://github.com/pbakaus/impeccable"
+    },
+    "thedotmack/claude-mem": {
+      "category": "AI Agent / Memory・Context",
+      "capability": "Agentの作業内容をセッション横断で圧縮・保存し、後続セッションへ関連コンテキストを再注入する",
+      "highlight": "Claude Code向けに始まった永続Memory基盤で、現在はCodex・Gemini・Copilot・OpenCodeなど複数Agentとの併用を意識している",
+      "url": "https://github.com/thedotmack/claude-mem"
+    },
+    "pingdotgg/t3code": {
+      "category": "Coding Agent / Control Surface",
+      "capability": "ローカルPC上のClaude Code、Codex、Cursor、OpenCodeなど複数Coding AgentをWeb・Desktop・Mobile UIから操作する",
+      "highlight": "既存CLI Agentを置き換えずに外側から制御するAgent Harnessの操作面で、スマホからの遠隔操作にも対応する",
+      "url": "https://github.com/pingdotgg/t3code"
+    },
+    "openai/plugins": {
+      "category": "Coding Agent / Plugins",
+      "capability": "Codex向けPluginの公式サンプルと、Skill・MCP・Agent・Command・Hookを組み合わせるPlugin構成例を提供する",
+      "highlight": "OpenAI公式のPlugin Catalogで、Figma、Notion、Web/iOS/macOS開発、Expo、Remotion、Google Slidesなど実用的な統合例をまとめている",
+      "url": "https://github.com/openai/plugins"
+    },
+    "NousResearch/hermes-agent": {
+      "category": "AI Agent / Self-Improving Agent",
+      "capability": "経験からSkillを生成・改善し、長期Memory、サブAgent、Scheduler、複数メッセージング経路を持つ自律Agentを構築・実行する",
+      "highlight": "自己改善ループとAgent-curated Memoryを内蔵し、ローカル・Docker・SSH・Serverlessなど複数実行基盤へ展開できる",
+      "url": "https://github.com/NousResearch/hermes-agent"
+    },
+    "garrytan/gstack": {
+      "category": "Coding Agent / Development Workflow",
+      "capability": "Coding Agentへ企画・設計・実装レビュー・QA・セキュリティ・リリースなど役割別の開発Skillを追加する",
+      "highlight": "CEO、Eng Manager、Designer、Reviewer、QA、Security、Releaseなどの役割を分け、ソフトウェア開発工程全体をSkillベースで運用する",
+      "url": "https://github.com/garrytan/gstack"
+    },
+    "antirez/ds4": {
+      "category": "Local AI / Inference",
+      "capability": "DeepSeek V4系やGLM 5系など一部の大型Open-weightモデルをMac、CUDA、ROCmなどのローカル環境で高速推論する",
+      "highlight": "汎用ランタイムではなく対象モデルを絞って最適化し、SSD Streaming、複数GPU、RDMA、Pipeline/Tensor Parallelまで扱う",
+      "url": "https://github.com/antirez/ds4"
+    },
+    "heygen-com/hyperframes": {
+      "category": "AI / Agentic Video",
+      "capability": "HTML・CSS・Media・Seekable Animationを使い、Agentから決定論的なMP4動画を生成する",
+      "highlight": "Claude Code、Codex、Cursor、Gemini CLI向けSkillを備え、Web表現をそのまま動画生成ワークフローへ使える",
+      "url": "https://github.com/heygen-com/hyperframes"
+    },
+    "cathrynlavery/diagram-design": {
+      "category": "Coding Agent / Diagram・Visualization",
+      "capability": "Claude CodeやCodexからアーキテクチャ図、フロー、Sequence、ER、Ganttなど多数の編集品質の図をHTML+SVGで生成する",
+      "highlight": "Mermaid依存を避け、静的HTMLを基本に必要ならMotionも追加できる。既存のdraw.io・Mermaid・Excalidraw図の再描画にも対応する",
+      "url": "https://github.com/cathrynlavery/diagram-design"
+    },
+    "ruvnet/ruflo": {
+      "category": "Multi-Agent / Agent Harness",
+      "capability": "Claude CodeやCodexへ複数AgentのSwarm、長期Memory、Sandbox、学習ループ、Federationを追加して協調実行する",
+      "highlight": "100以上の専門Agentを束ねるMeta-Harnessで、タスクルーティング・自己学習・クロスマシン連携まで一つの実行層として扱う",
+      "url": "https://github.com/ruvnet/ruflo"
     }
   },
-  "updated_at": "2026-09-28"
+  "updated_at": "2026-10-05"
 }
