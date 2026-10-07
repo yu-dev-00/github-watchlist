@@ -4,11 +4,14 @@
 
 - 一意キー: `owner/repository`
 - 表示列: リポジトリ / 分類 / 何ができるか / 注目ポイント / URL
-- 重複Repoは行を増やさず、重要な変更がある場合のみ説明を更新
 - 機械管理用の正本: `repositories.json`
+- `watch`: 最近の注目度・開発活発度・新規性を追跡
+- `evergreen`: 流行に左右されにくい長期参照用の定番
+- 同じRepoは重複登録せず、重要な変更がある場合のみ説明を更新
 
-最終移行日: 2026-09-19
-最終更新日: 2026-10-05
+最終更新日: 2026-10-08
+
+## Trending / Watch
 
 | リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
 |---|---|---|---|---|
@@ -93,7 +96,7 @@
 | **VectifyAI/PageIndex** | AI / RAG・Document Retrieval | PDFや長文書を階層ツリーとして索引化し、ベクトル検索ではなくLLMの推論で関連箇所をたどって取得する | Vector DBや固定Chunkingを使わず、文書構造とコンテキストを保ったまま検索できるReasoning-based RAG。長い技術文書・規格書・論文・契約書などに向く | https://github.com/VectifyAI/PageIndex |
 | **google/mantis** | Coding Agent / Security・Vulnerability Research | AI Agentでコードベースの脅威モデル作成、脆弱性仮説生成、検証、再現、修正、再検証までを多段階で実行する | Google公開のセキュリティ研究向けAgent Harness。履歴分析、Semantic Index、重複排除、Severity校正、脆弱性チェーン探索まで含む。隔離環境での利用を強く前提とする | https://github.com/google/mantis |
 | **Tencent/WeKnora** | AI / Knowledge Platform・RAG | 企業文書を取り込み、RAG検索、Multi-step Agent、Wiki/Knowledge Graph、MCP、長期Memoryまで一つの知識基盤で扱う | PDFやOffice文書、複数データソースを統合し、RAG・Agent・Wikiを同じKnowledge Base上で利用できる。Self-host、Ollama、BrowserSkill、Sandbox、RBACにも対応する | https://github.com/Tencent/WeKnora |
-| **tester-army/e2e** | AI / E2E Testing | 自然言語でWeb・モバイルアプリの操作目標を記述し、Agentが実際に操作してE2Eテストを実行する | Agentが成功した操作を記録し、次回以降はアプリが変わるまでモデル呼び出しなしで再生できる。WebとiOS/Androidの両方に対応する | https://github.com/tester-army/e2e |
+| **tester-army/e2e** | AI / E2E Testing | 自然言語でWeb・モバイルアプリの操作目標を記述し、Agentが実際に操作してE2Eテストを実行する | Agentが成功した操作を記録し、次回以降はアプリが変わるまでモデル呼び出しなしで再生できる。Playwright系WebとiOS/Androidの両方に対応する | https://github.com/tester-army/e2e |
 | **pbakaus/impeccable** | Coding Agent / UI・Design Skill | Coding AgentへUI設計・レビュー・改善・ブラウザ反復のためのデザインSkillとコマンド群を追加する | 24コマンドと61個の決定論的検出ルールを持ち、AI生成UIにありがちな見た目の癖を抑えつつ、PRODUCT.mdやDESIGN.mdで設計文脈を継続利用する | https://github.com/pbakaus/impeccable |
 | **thedotmack/claude-mem** | AI Agent / Memory・Context | Agentの作業内容をセッション横断で圧縮・保存し、後続セッションへ関連コンテキストを再注入する | Claude Code向けに始まった永続Memory基盤で、現在はCodex・Gemini・Copilot・OpenCodeなど複数Agentとの併用を意識している | https://github.com/thedotmack/claude-mem |
 | **pingdotgg/t3code** | Coding Agent / Control Surface | ローカルPC上のClaude Code、Codex、Cursor、OpenCodeなど複数Coding AgentをWeb・Desktop・Mobile UIから操作する | 既存CLI Agentを置き換えずに外側から制御するAgent Harnessの操作面で、スマホからの遠隔操作にも対応する | https://github.com/pingdotgg/t3code |
@@ -104,3 +107,43 @@
 | **heygen-com/hyperframes** | AI / Agentic Video | HTML・CSS・Media・Seekable Animationを使い、Agentから決定論的なMP4動画を生成する | Claude Code、Codex、Cursor、Gemini CLI向けSkillを備え、Web表現をそのまま動画生成ワークフローへ使える | https://github.com/heygen-com/hyperframes |
 | **cathrynlavery/diagram-design** | Coding Agent / Diagram・Visualization | Claude CodeやCodexからアーキテクチャ図、フロー、Sequence、ER、Ganttなど多数の編集品質の図をHTML+SVGで生成する | Mermaid依存を避け、静的HTMLを基本に必要ならMotionも追加できる。既存のdraw.io・Mermaid・Excalidraw図の再描画にも対応する | https://github.com/cathrynlavery/diagram-design |
 | **ruvnet/ruflo** | Multi-Agent / Agent Harness | Claude CodeやCodexへ複数AgentのSwarm、長期Memory、Sandbox、学習ループ、Federationを追加して協調実行する | 100以上の専門Agentを束ねるMeta-Harnessで、タスクルーティング・自己学習・クロスマシン連携まで一つの実行層として扱う | https://github.com/ruvnet/ruflo |
+| **openclaw/openclaw** | AI Agent / Personal Assistant | ローカル環境を中心にAIアシスタントを構築し、複数モデルやツールを組み合わせて使う | 個人向けAI Agentをセルフホストして拡張する基盤として注目。ローカル実行や外部モデル連携の選択肢が広い | https://github.com/openclaw/openclaw |
+| **ollama/ollama** | Local AI / Inference | LLMやVLMなどのOpen-weightモデルをローカルPCで簡単に取得・実行する | ローカルAI実行基盤の事実上の定番の一つで、各種Agent・UI・RAG基盤との接続点として重要 | https://github.com/ollama/ollama |
+| **langchain-ai/langchain** | AI Agent / Framework | LLMアプリ、Agent、Tool連携、RAGなどを構築するためのフレームワークを提供する | 成熟したエコシステムを持ち、Agent開発の比較基準として引き続き重要 | https://github.com/langchain-ai/langchain |
+| **n8n-io/n8n** | Automation / AI Workflow | 多数のサービスを接続し、AIを含む業務ワークフローをノーコード/ローコードで自動化する | 通常の自動化とAI Agentを同じWorkflow上で組み合わせやすく、実運用用途で強い | https://github.com/n8n-io/n8n |
+| **langgenius/dify** | AI / Application Platform | LLMアプリ、RAG、Agent、Workflow、モデル管理を統合して構築・運用する | AIアプリを試作から運用まで一つの基盤で扱える代表的なOSSプラットフォーム | https://github.com/langgenius/dify |
+| **langflow-ai/langflow** | AI Agent / Visual Workflow | LLM・Agent・RAG・Tool連携をビジュアルなフローとして設計・実行する | Agent WorkflowをGUIで構成・確認でき、実験とプロトタイプ作成に向く | https://github.com/langflow-ai/langflow |
+| **mem0ai/mem0** | AI Agent / Memory | AI AgentやLLMアプリへユーザー・会話・タスクの長期Memoryを追加する | Agent Memoryの代表的OSSで、Memory層をモデル本体から分離する設計の比較対象として重要 | https://github.com/mem0ai/mem0 |
+| **browser-use/browser-use** | AI Agent / Browser Automation | AI AgentがWebブラウザを認識・操作してWebタスクを自動実行する | Browser Agent分野の代表的プロジェクトで、Web操作をAgentの実行能力として組み込む用途に向く | https://github.com/browser-use/browser-use |
+| **microsoft/markitdown** | AI / Document Processing | PDF・Office・画像など各種ファイルをLLMが扱いやすいMarkdownへ変換する | RAGやAgentへの文書入力前処理としてシンプルに使いやすいMicrosoft製ツール | https://github.com/microsoft/markitdown |
+| **open-webui/open-webui** | Local AI / Chat Platform | ローカルモデルや各種AI APIをセルフホストのWeb UIから利用・管理する | Ollamaなどとの組み合わせでローカルAI環境のフロントエンドとして広く利用されている | https://github.com/open-webui/open-webui |
+| **browserbase/stagehand** | AI Agent / Browser Automation | コードによるブラウザ操作とAIによる柔軟なWeb操作を組み合わせて自動化する | 決定論的操作とAgent操作の中間を狙う設計で、壊れにくいBrowser Automation基盤として注目 | https://github.com/browserbase/stagehand |
+| **firecrawl/firecrawl** | AI / Web Data | Webサイトをクロールし、LLMやRAGで使いやすいMarkdown・構造化データへ変換する | Webデータ取得をAI向けにまとめた代表的基盤で、検索・抽出・Agent連携まで用途が広い | https://github.com/firecrawl/firecrawl |
+| **vllm-project/vllm** | LLM / Inference | LLMを高スループット・高効率でGPU推論・Servingする | OpenAI互換Servingや量子化・分散推論などを備え、大規模モデル運用の中心的OSS | https://github.com/vllm-project/vllm |
+| **ggml-org/llama.cpp** | LLM / Local Inference | LLMをCPU・GPUを含む幅広い環境で軽量にローカル推論する | GGUFや量子化を中心とした省メモリ推論エコシステムの基盤で、ローカルAIでは特に重要 | https://github.com/ggml-org/llama.cpp |
+| **run-llama/llama_index** | AI / RAG・Data Framework | LLMアプリから文書・DB・APIなどの外部データを検索・利用するためのRAG基盤を構築する | Data/RAG層の代表的フレームワークで、Agentと外部知識を結ぶ設計比較に有用 | https://github.com/run-llama/llama_index |
+| **infiniflow/ragflow** | AI / RAG Platform | 文書解析・検索・RAG・Agentを統合した知識ベースを構築する | 文書理解を重視したRAG基盤として、企業文書や複雑なPDFの活用に向く | https://github.com/infiniflow/ragflow |
+| **supermemoryai/supermemory** | AI Agent / Memory・Context | AI Agentやアプリへ長期MemoryとContext Retrievalを提供する | Agentが必要な記憶を継続利用するContext Engineとして、Memory分野の動向を見る上で重要 | https://github.com/supermemoryai/supermemory |
+| **ComposioHQ/awesome-claude-skills** | AI Agent / Skills Catalog | Claude Codeを中心としたAgent SkillやPluginの事例・リソースを一覧化する | Skillエコシステム全体を俯瞰するための索引として有用で、他のCoding Agentへ応用できる事例も多い | https://github.com/ComposioHQ/awesome-claude-skills |
+| **comfyanonymous/ComfyUI** | AI / Image・Video Workflow | 画像・動画生成モデルをノードベースのWorkflowとして組み合わせて実行する | 生成AIの新モデル・新手法をローカルで試す共通基盤として現在も重要度が高い | https://github.com/comfyanonymous/ComfyUI |
+
+## Evergreen
+
+| リポジトリ | 分類 | 何ができるか | 注目ポイント | URL |
+|---|---|---|---|---|
+| **public-apis/public-apis** | Developer Resource / API | 無料・公開APIをカテゴリ別に探す | 試作や学習で外部APIを探す際の定番カタログ | https://github.com/public-apis/public-apis |
+| **codecrafters-io/build-your-own-x** | Learning / Build From Scratch | DB、OS、Git、コンテナなどを自作して仕組みを学ぶ教材を探す | 内部構造を実装から理解したいときの長期的な定番資料 | https://github.com/codecrafters-io/build-your-own-x |
+| **kamranahmedse/developer-roadmap** | Learning / Roadmap | 分野別の学習ロードマップと必要技術を確認する | 新しい技術分野へ入るときの全体像把握に便利 | https://github.com/kamranahmedse/developer-roadmap |
+| **EbookFoundation/free-programming-books** | Learning / Books | 多数の言語・技術分野の無料教材や書籍を探す | プログラミング学習資料の巨大な長期保存カタログ | https://github.com/EbookFoundation/free-programming-books |
+| **donnemartin/system-design-primer** | Software Architecture / System Design | 大規模システム設計の基本概念・設計問題・面接対策を学ぶ | System Designの基礎を体系的に確認できる定番資料 | https://github.com/donnemartin/system-design-primer |
+| **jwasham/coding-interview-university** | Learning / CS・Interview | CS基礎、アルゴリズム、データ構造を体系的に学習する | コンピュータサイエンス基礎を長期計画で学ぶ定番カリキュラム | https://github.com/jwasham/coding-interview-university |
+| **jlevy/the-art-of-command-line** | Developer Tool / Command Line | Unix/Linuxのコマンドライン操作を効率よく学ぶ | シェル操作・テキスト処理・デバッグの実践知を簡潔にまとめた定番資料 | https://github.com/jlevy/the-art-of-command-line |
+| **practical-tutorials/project-based-learning** | Learning / Project Based | 実際のアプリやシステムを作りながら各技術を学ぶ教材を探す | 手を動かして学ぶプロジェクト型教材の長期的な索引 | https://github.com/practical-tutorials/project-based-learning |
+| **getify/You-Dont-Know-JS** | Learning / JavaScript | JavaScriptの言語仕様・挙動を深く理解する | JavaScriptの内部挙動まで掘り下げる定番シリーズ | https://github.com/getify/You-Dont-Know-JS |
+| **trimstray/the-book-of-secret-knowledge** | Developer Resource / Knowledge | CLI、ネットワーク、セキュリティ、DevOpsなどの実践的Tipsを参照する | 幅広い開発・運用知識を横断的にまとめたリファレンス | https://github.com/trimstray/the-book-of-secret-knowledge |
+| **yangshun/tech-interview-handbook** | Learning / Interview | ソフトウェアエンジニア面接のコーディング・設計・行動面接を準備する | 技術面接準備の体系的な定番ガイド | https://github.com/yangshun/tech-interview-handbook |
+| **awesome-selfhosted/awesome-selfhosted** | Developer Resource / Self-hosted | 自分でホストできるOSSサービスを用途別に探す | セルフホスト可能なソフトウェアを探す際の代表的カタログ | https://github.com/awesome-selfhosted/awesome-selfhosted |
+| **trekhleb/javascript-algorithms** | Learning / Algorithms | JavaScript実装付きでアルゴリズムとデータ構造を学ぶ | 実装を読みながらアルゴリズムを確認できる定番教材 | https://github.com/trekhleb/javascript-algorithms |
+| **Chalarangelo/30-seconds-of-code** | Developer Resource / Snippets | JavaScript・CSS・Reactなどの短い実装例やパターンを参照する | 小さな実装パターンを素早く確認するための長期的リファレンス | https://github.com/Chalarangelo/30-seconds-of-code |
+| **github/gitignore** | Developer Tool / Git | 言語・IDE・環境別の.gitignoreテンプレートを利用する | GitHub公式の定番テンプレート集で、新規プロジェクト作成時に継続的に使える | https://github.com/github/gitignore |
+| **freeCodeCamp/freeCodeCamp** | Learning / Programming | Web開発やプログラミングを実践課題で学ぶ | 大規模な無料学習カリキュラムとして長期的な参照価値が高い | https://github.com/freeCodeCamp/freeCodeCamp |
