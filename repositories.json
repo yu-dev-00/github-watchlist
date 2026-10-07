@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "migrated_at": "2026-09-19",
   "unique_key": "owner/repository",
   "repositories": {
@@ -7,554 +7,895 @@
       "category": "AI / 投資分析",
       "capability": "BuffettやMungerなどの投資手法をAIリサーチワークフローとして使う",
       "highlight": "企業・業界・投資チェック向けのResearch SkillをClaude CodeやCodexから利用できる",
-      "url": "https://github.com/xbtlin/ai-berkshire"
+      "url": "https://github.com/xbtlin/ai-berkshire",
+      "track": "watch"
     },
     "usestrix/strix": {
       "category": "AI / セキュリティ",
       "capability": "AIエージェントによる自律的なペネトレーションテストを行う",
       "highlight": "脆弱性探索からPoC検証まで自動化し、CI/CDへ組み込みやすい",
-      "url": "https://github.com/usestrix/strix"
+      "url": "https://github.com/usestrix/strix",
+      "track": "watch"
     },
     "calesthio/OpenMontage": {
       "category": "AI / 動画生成",
       "capability": "リサーチ、台本、素材生成、編集まで動画制作をエージェント化する",
       "highlight": "動画制作工程を複数のAgent Skillとツールで一気通貫に扱う",
-      "url": "https://github.com/calesthio/OpenMontage"
+      "url": "https://github.com/calesthio/OpenMontage",
+      "track": "watch"
     },
     "Panniantong/Agent-Reach": {
       "category": "AI Agent / Tool",
       "capability": "AIエージェントにWeb、YouTube、GitHub、Xなどへのアクセス能力を追加する",
       "highlight": "既存CLIや取得ツールをまとめてAgentの能力レイヤーとして使える",
-      "url": "https://github.com/Panniantong/Agent-Reach"
+      "url": "https://github.com/Panniantong/Agent-Reach",
+      "track": "watch"
     },
     "DeusData/codebase-memory-mcp": {
       "category": "Coding Agent / MCP",
       "capability": "コードベースを解析して永続的な知識グラフを構築する",
       "highlight": "Coding Agentが毎回コード全体を読み直さず構造を把握しやすくする",
-      "url": "https://github.com/DeusData/codebase-memory-mcp"
+      "url": "https://github.com/DeusData/codebase-memory-mcp",
+      "track": "watch"
     },
     "harry0703/MoneyPrinterTurbo": {
       "category": "AI / 動画生成",
       "capability": "AIを使って短尺動画の台本・素材・音声・編集などを自動化する",
       "highlight": "ShortsやSNS向け動画を一連のワークフローで生成できる",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+      "track": "watch"
     },
     "tt-a1i/archify": {
       "category": "Coding Agent / 可視化",
       "capability": "コードや設計、処理フローを対話的な図に変換する",
       "highlight": "Coding Agentからアーキテクチャ図やシーケンス図を生成・保存できる",
-      "url": "https://github.com/tt-a1i/archify"
+      "url": "https://github.com/tt-a1i/archify",
+      "track": "watch"
     },
     "THU-MAIC/OpenMAIC": {
       "category": "Multi-Agent / 教育",
       "capability": "複数AIが先生役・生徒役に分かれて授業や学習対話を再現する",
       "highlight": "Multi-Agentでインタラクティブな学習環境を構築する",
-      "url": "https://github.com/THU-MAIC/OpenMAIC"
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "track": "watch"
     },
     "K-Dense-AI/scientific-agent-skills": {
       "category": "AI Agent / 科学研究",
       "capability": "生物・化学・医療などの調査・分析SkillをAI Agentへ追加する",
       "highlight": "研究用途の多数のSkillと科学データベース連携をまとめている",
-      "url": "https://github.com/K-Dense-AI/scientific-agent-skills"
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "track": "watch"
     },
     "jingyaogong/minimind": {
       "category": "LLM / 学習基盤",
       "capability": "小型LLMをアーキテクチャから学習・推論までゼロから構築する",
       "highlight": "Pretrain、SFT、LoRA、RL、蒸留などを小規模実装で学べる",
-      "url": "https://github.com/jingyaogong/minimind"
+      "url": "https://github.com/jingyaogong/minimind",
+      "track": "watch"
     },
     "MadsLorentzen/ai-job-search": {
       "category": "AI Agent / 求職支援",
       "capability": "求人探索、履歴書調整、応募管理、面接準備を支援する",
       "highlight": "求職活動全体をローカルのAgentワークフローとしてまとめる",
-      "url": "https://github.com/MadsLorentzen/ai-job-search"
+      "url": "https://github.com/MadsLorentzen/ai-job-search",
+      "track": "watch"
     },
     "tashfeenahmed/freellmapi": {
       "category": "LLM / API Router",
       "capability": "複数の無料LLMプロバイダを1つのOpenAI互換APIに束ねる",
       "highlight": "無料枠の振り分けやFailoverを行い、各種Coding Agentから使いやすい",
-      "url": "https://github.com/tashfeenahmed/freellmapi"
+      "url": "https://github.com/tashfeenahmed/freellmapi",
+      "track": "watch"
     },
     "unclecode/crawl4ai": {
       "category": "AI / Web Crawling",
       "capability": "WebページをAIやRAGが扱いやすいMarkdown・構造化データへ変換する",
       "highlight": "LLM向けデータ収集に特化したクローリングと抽出を自動化できる",
-      "url": "https://github.com/unclecode/crawl4ai"
+      "url": "https://github.com/unclecode/crawl4ai",
+      "track": "watch"
     },
     "Osmantic/ODS": {
       "category": "Local AI / AI基盤",
       "capability": "PCをLLM、音声、RAG、画像生成などを動かすAIサーバーにする",
       "highlight": "複数のローカルAI機能をセルフホスト環境へ統合する",
-      "url": "https://github.com/Osmantic/ODS"
+      "url": "https://github.com/Osmantic/ODS",
+      "track": "watch"
     },
     "ChromeDevTools/chrome-devtools-mcp": {
       "category": "Coding Agent / MCP",
       "capability": "Coding AgentからChrome DevToolsを操作・検査・デバッグする",
       "highlight": "実ブラウザの動作確認、DOM調査、Performance解析をMCP経由で行える",
-      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "track": "watch"
     },
     "PrimeIntellect-ai/prime-agent": {
       "category": "Coding Agent / 自律エージェント",
       "capability": "長時間のコーディングや自律タスクをStatefulに実行する",
       "highlight": "自己改善型Agent Runtimeとして長時間タスクを扱う方向性が特徴",
-      "url": "https://github.com/PrimeIntellect-ai/prime-agent"
+      "url": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "track": "watch"
     },
     "semantica-agi/semantica": {
       "category": "AI Agent / Memory・Knowledge Graph",
       "capability": "Agentの知識・判断・コンテキストをグラフとして保存・推論する",
       "highlight": "Knowledge Graphや因果・provenanceを含むAgent Memory基盤",
-      "url": "https://github.com/semantica-agi/semantica"
+      "url": "https://github.com/semantica-agi/semantica",
+      "track": "watch"
     },
     "addyosmani/agent-skills": {
       "category": "Coding Agent / Skills",
       "capability": "仕様化から実装、テスト、レビュー、リリースまでのSkillを提供する",
       "highlight": "ソフトウェア開発工程を再利用可能なAgent Skillとして体系化している",
-      "url": "https://github.com/addyosmani/agent-skills"
+      "url": "https://github.com/addyosmani/agent-skills",
+      "track": "watch"
     },
     "cactus-compute/needle": {
       "category": "LLM / Edge AI",
       "capability": "スマホ、ウェアラブル、ロボットなどで小型モデルのFunction Callingを行う",
       "highlight": "超小型モデルをエッジ端末上のAgent用途へ使う設計が特徴",
-      "url": "https://github.com/cactus-compute/needle"
+      "url": "https://github.com/cactus-compute/needle",
+      "track": "watch"
     },
     "macro-inc/macro": {
       "category": "AI Agent / Workspace",
       "capability": "Email、Chat、Docs、Tasks、CRMなどをAgentから横断利用する",
       "highlight": "Workspace全体を共有MemoryとしてAgentから扱える",
-      "url": "https://github.com/macro-inc/macro"
+      "url": "https://github.com/macro-inc/macro",
+      "track": "watch"
     },
     "google/skills": {
       "category": "AI Agent / Skills",
       "capability": "Google製品・技術をAI Agentから扱うSkillを提供する",
       "highlight": "Google公式のAgent Skill群として製品連携の標準化を進める",
-      "url": "https://github.com/google/skills"
+      "url": "https://github.com/google/skills",
+      "track": "watch"
     },
     "paperclipai/paperclip": {
       "category": "Multi-Agent / Orchestration",
       "capability": "複数AI Agentの仕事、役割、コスト、目標を組織的に管理する",
       "highlight": "Agentを社員のように管理する上位のガバナンス・運用レイヤー",
-      "url": "https://github.com/paperclipai/paperclip"
+      "url": "https://github.com/paperclipai/paperclip",
+      "track": "watch"
     },
     "cloudflare/computer": {
       "category": "AI Agent / Computer Use",
       "capability": "AI AgentへブラウザやGUIを含むコンピュータ操作環境を提供する",
       "highlight": "Agentが実際のコンピュータ操作を行うための実行環境を提供する",
-      "url": "https://github.com/cloudflare/computer"
+      "url": "https://github.com/cloudflare/computer",
+      "track": "watch"
     },
     "abhigyanpatwari/GitNexus": {
       "category": "Coding Agent / Code Intelligence",
       "capability": "GitリポジトリからKnowledge Graphを生成してコードを探索する",
       "highlight": "Graph RAGでコード構造や関係を検索・理解しやすくする",
-      "url": "https://github.com/abhigyanpatwari/GitNexus"
+      "url": "https://github.com/abhigyanpatwari/GitNexus",
+      "track": "watch"
     },
     "JetBrains/go-modern-guidelines": {
       "category": "Coding Agent / Skill",
       "capability": "AI Coding Agentへ現代的なGo実装ガイドラインを与える",
       "highlight": "言語固有の実装規約をSkillとして配布するJetBrainsの実例",
-      "url": "https://github.com/JetBrains/go-modern-guidelines"
+      "url": "https://github.com/JetBrains/go-modern-guidelines",
+      "track": "watch"
     },
     "workweave/router": {
       "category": "AI Agent / Model Router",
       "capability": "Promptごとに適したLLMへ自動ルーティングする",
       "highlight": "OpenAI互換APIとして複数モデルのコスト・性能最適化を狙う",
-      "url": "https://github.com/workweave/router"
+      "url": "https://github.com/workweave/router",
+      "track": "watch"
     },
     "magnitudedev/magnitude": {
       "category": "Local AI / Inference",
       "capability": "PC性能に合うローカルLLMを選定・取得・推論サーバー化する",
       "highlight": "ローカル推論環境のモデル選択から実行までを自動化する",
-      "url": "https://github.com/magnitudedev/magnitude"
+      "url": "https://github.com/magnitudedev/magnitude",
+      "track": "watch"
     },
     "pollen-robotics/microduck_rl": {
       "category": "Robotics / Reinforcement Learning",
       "capability": "Microduckロボット向けにMuJoCo系RL学習と実機Policy実行を行う",
       "highlight": "歩行や復帰など複数タスクをSim-to-Realまで試せる",
-      "url": "https://github.com/pollen-robotics/microduck_rl"
+      "url": "https://github.com/pollen-robotics/microduck_rl",
+      "track": "watch"
     },
     "google-research/timesfm": {
       "category": "AI / 時系列予測",
       "capability": "Foundation Modelで時系列データをZero-shot予測する",
       "highlight": "時系列Foundation Modelの代表的OSSで、多変量や外生変数にも対応が進む",
-      "url": "https://github.com/google-research/timesfm"
+      "url": "https://github.com/google-research/timesfm",
+      "track": "watch"
     },
     "debpalash/VoiceStudio": {
       "category": "AI / 音声",
       "capability": "音声クローン、音声生成、吹替、文字起こし等をローカルで行う",
       "highlight": "ローカル音声AI機能を統合した制作環境",
-      "url": "https://github.com/debpalash/VoiceStudio"
+      "url": "https://github.com/debpalash/VoiceStudio",
+      "track": "watch"
     },
     "handsomestWei/patent-disclosure-skill": {
       "category": "AI Agent / 特許",
       "capability": "AI Agentで特許候補抽出、特許文書作成、読解、審査対応を支援する",
       "highlight": "設計資料やコードから特許候補を抽出するSkill構成が参考になる",
-      "url": "https://github.com/handsomestWei/patent-disclosure-skill"
+      "url": "https://github.com/handsomestWei/patent-disclosure-skill",
+      "track": "watch"
     },
     "tailscale/tailcat": {
       "category": "Network / Developer Tool",
       "capability": "Tailscaleのデータプレーンを使ってマシン間通信を行う",
       "highlight": "WireGuardとDERPを利用したシンプルな通信ツールで仕組みの学習にも使える",
-      "url": "https://github.com/tailscale/tailcat"
+      "url": "https://github.com/tailscale/tailcat",
+      "track": "watch"
     },
     "affaan-m/ECC": {
       "category": "Coding Agent / Agent Harness",
       "capability": "Skills、Memory、Security、Workflow、OrchestrationをまとめてCoding Agent環境を構築する",
       "highlight": "単一SkillではなくAgent開発環境全体を標準化するHarnessとして発展している",
-      "url": "https://github.com/affaan-m/ECC"
+      "url": "https://github.com/affaan-m/ECC",
+      "track": "watch"
     },
     "Imbad0202/academic-research-skills": {
       "category": "AI Agent / Research",
       "capability": "調査、執筆、レビュー、修正まで研究工程を支援する",
       "highlight": "文献探索や引用監査をSkill化しHuman-in-the-loopを重視する",
-      "url": "https://github.com/Imbad0202/academic-research-skills"
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "track": "watch"
     },
     "bilawalsidhu/gods-eye-view": {
       "category": "AI / Spatial Intelligence",
       "capability": "衛星・航空などの実データを3D地球上で可視化・分析する",
       "highlight": "3D GlobeとOSINT/地理空間分析を組み合わせたSpatial Intelligence基盤",
-      "url": "https://github.com/bilawalsidhu/gods-eye-view"
+      "url": "https://github.com/bilawalsidhu/gods-eye-view",
+      "track": "watch"
     },
     "JustVugg/colibri": {
       "category": "LLM / Local Inference",
       "capability": "大型MoEモデルをCPU中心のローカル環境で実行する",
       "highlight": "Pure CとExpertストリーミングで大型MoEの省リソース実行を狙う",
-      "url": "https://github.com/JustVugg/colibri"
+      "url": "https://github.com/JustVugg/colibri",
+      "track": "watch"
     },
     "alphaXiv/OpenResearch": {
       "category": "AI Agent / Research",
       "capability": "複数Research Agentを並列実行して調査結果を統合する",
       "highlight": "研究課題をサブ問題へ分解し並列Agentで深掘りする",
-      "url": "https://github.com/alphaXiv/OpenResearch"
+      "url": "https://github.com/alphaXiv/OpenResearch",
+      "track": "watch"
     },
     "XiaoDuoYa/codex-with-chatgpt": {
       "category": "Coding Agent / MCP",
       "capability": "ChatGPTを計画役、Codexを実行役として連携する",
       "highlight": "推論と実行を役割分担してMCP経由で接続する構成",
-      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt"
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "track": "watch"
     },
     "alibaba/open-code-review": {
       "category": "Coding Agent / Code Review",
       "capability": "静的解析とLLM Agentを組み合わせてコードレビューする",
       "highlight": "決定論的ルールとLLMを併用しセキュリティや品質問題を検出する",
-      "url": "https://github.com/alibaba/open-code-review"
+      "url": "https://github.com/alibaba/open-code-review",
+      "track": "watch"
     },
     "tech-leads-club/agent-skills": {
       "category": "Coding Agent / Skills",
       "capability": "検証・安全性・バージョン管理を意識したAgent Skillを配布する",
       "highlight": "Skill Registry的な管理基盤として再利用性を高める",
-      "url": "https://github.com/tech-leads-club/agent-skills"
+      "url": "https://github.com/tech-leads-club/agent-skills",
+      "track": "watch"
     },
     "tigerless-labs/agent-memory": {
       "category": "AI Agent / Memory",
       "capability": "Claude CodeやCodexに共有の長期記憶を追加する",
       "highlight": "MarkdownをSource of Truthにして複数Agentが同じMemory Storeを共有する",
-      "url": "https://github.com/tigerless-labs/agent-memory"
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "track": "watch"
     },
     "okf-memory/okf-agent-memory": {
       "category": "AI Agent / Memory",
       "capability": "Git-nativeな永続メモリをCoding Agentへ提供する",
       "highlight": "Git、Markdown、BM25、MCPで外部DBなしのMemory管理を行う",
-      "url": "https://github.com/okf-memory/okf-agent-memory"
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "track": "watch"
     },
     "unstablebuild/rune": {
       "category": "Coding Agent / Development Environment",
       "capability": "複数Coding Agentを扱うためのAgent前提開発環境を提供する",
       "highlight": "Terminal、Editor、Workspace管理をAgent Workflow向けに統合する",
-      "url": "https://github.com/unstablebuild/rune"
+      "url": "https://github.com/unstablebuild/rune",
+      "track": "watch"
     },
     "2akouwu/reverify": {
       "category": "AI Agent / Verification",
       "capability": "AI生成の主張を決定論的ツールとEvidenceで再検証する",
       "highlight": "LLMが提案しToolが判定する構成でHallucination抑制を狙う",
-      "url": "https://github.com/2akouwu/reverify"
+      "url": "https://github.com/2akouwu/reverify",
+      "track": "watch"
     },
     "DietrichGebert/ponytail": {
       "category": "Coding Agent / Skills",
       "capability": "AI Coding Agentへ最小実装・YAGNI・標準ライブラリ優先を促す",
       "highlight": "過剰設計や不要な抽象化を抑える実用的なSkill群",
-      "url": "https://github.com/DietrichGebert/ponytail"
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "track": "watch"
     },
     "google/artemis": {
       "category": "AI Agent / Android Automation",
       "capability": "自然言語でAndroid端末やアプリ操作を自動化する",
       "highlight": "Coding Agentと接続し、操作実行やログ収集まで扱える",
-      "url": "https://github.com/google/artemis"
+      "url": "https://github.com/google/artemis",
+      "track": "watch"
     },
     "EvoMap/AutoResearch": {
       "category": "AI Agent / Research",
       "capability": "研究アイデアから実験・評価・レビューまでを自動化する",
       "highlight": "途中結果・コード・失敗理由を保持するStateful Research Agent",
-      "url": "https://github.com/EvoMap/AutoResearch"
+      "url": "https://github.com/EvoMap/AutoResearch",
+      "track": "watch"
     },
     "mksglu/context-mode": {
       "category": "Coding Agent / Context Management",
       "capability": "MCPやツール出力を外部保持してコンテキスト消費を削減する",
       "highlight": "必要な要約だけをモデルへ戻すことで長時間Agent作業を効率化する",
-      "url": "https://github.com/mksglu/context-mode"
+      "url": "https://github.com/mksglu/context-mode",
+      "track": "watch"
     },
     "max-sixty/worktrunk": {
       "category": "Developer Tool / Agent Workflow",
       "capability": "Git worktreeを簡単に管理し複数Coding Agentを並列実行する",
       "highlight": "Agentごとに作業ツリーを隔離して並列開発しやすくする",
-      "url": "https://github.com/max-sixty/worktrunk"
+      "url": "https://github.com/max-sixty/worktrunk",
+      "track": "watch"
     },
     "earthtojake/text-to-cad": {
       "category": "AI Agent / CAD・Robotics",
       "capability": "AgentからCAD、CAE、CAM、URDFなどを生成・編集する",
       "highlight": "機械設計からロボット記述までAgent Skillで扱う点が特徴",
-      "url": "https://github.com/earthtojake/text-to-cad"
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "track": "watch"
     },
     "browser-use/video-use": {
       "category": "AI / 動画編集",
       "capability": "Coding Agentへ素材を渡して動画編集を自動化する",
       "highlight": "字幕、カット、アニメーションなどを複数ツール・Agentで処理する",
-      "url": "https://github.com/browser-use/video-use"
+      "url": "https://github.com/browser-use/video-use",
+      "track": "watch"
     },
     "jihe520/MathModelAgent": {
       "category": "AI Agent / 数学・研究",
       "capability": "数理モデリング、計算、可視化、文章化を自動化する",
       "highlight": "数学研究・コンペ向けの一連のAgent Workflowを提供する",
-      "url": "https://github.com/jihe520/MathModelAgent"
+      "url": "https://github.com/jihe520/MathModelAgent",
+      "track": "watch"
     },
     "jordan-gibbs/hyperresearch": {
       "category": "AI Agent / Knowledge Base",
       "capability": "Web調査結果を永続的な検索可能Wikiへ蓄積する",
       "highlight": "単発Deep Researchではなく継続的な知識ベースとして残す設計",
-      "url": "https://github.com/jordan-gibbs/hyperresearch"
+      "url": "https://github.com/jordan-gibbs/hyperresearch",
+      "track": "watch"
     },
     "ayghri/i-have-adhd": {
       "category": "Coding Agent / Output Skill",
       "capability": "Coding Agentの回答を結論・次の行動優先の短い形式へ整える",
       "highlight": "能力追加ではなくAgentの出力スタイルをSkillとして制御する",
-      "url": "https://github.com/ayghri/i-have-adhd"
+      "url": "https://github.com/ayghri/i-have-adhd",
+      "track": "watch"
     },
     "mattpocock/skills": {
       "category": "Coding Agent / Skills",
       "capability": "仕様化、TDD、実装、レビュー、チケット分割など開発工程をSkill化する",
       "highlight": "実開発フローそのものを再利用可能なSkillとして体系化している",
-      "url": "https://github.com/mattpocock/skills"
+      "url": "https://github.com/mattpocock/skills",
+      "track": "watch"
     },
     "anthropics/knowledge-work-plugins": {
       "category": "AI Agent / Knowledge Work",
       "capability": "業務職種ごとのSkills、Connectors、Slash Commands、Sub-agentsをClaudeへ追加する",
       "highlight": "Product、Sales、Support、Legal、Finance、Dataなど11種の業務PluginをAnthropic公式が公開し、Claude Codeでも利用できる",
-      "url": "https://github.com/anthropics/knowledge-work-plugins"
+      "url": "https://github.com/anthropics/knowledge-work-plugins",
+      "track": "watch"
     },
     "yynxxxxx/Codex-X": {
       "category": "Coding Agent / Codex Tool",
       "capability": "Codex Desktop・CLIのPrompt、Provider、Session、Skills、MCP、設定をGUIで一元管理する",
       "highlight": "複数Provider/APIや会話履歴、config.toml、Token使用量まで可視化するクロスプラットフォーム管理ツール",
-      "url": "https://github.com/yynxxxxx/Codex-X"
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "track": "watch"
     },
     "cloudflare/security-audit-skill": {
       "category": "Coding Agent / Security Skill",
       "capability": "Coding Agentに多段階のセキュリティ監査ワークフローを追加する",
       "highlight": "偵察→Coverage管理→脆弱性探索→独立検証→機械可読なfinding→再検証までをSkillとして定式化している",
-      "url": "https://github.com/cloudflare/security-audit-skill"
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "track": "watch"
     },
     "lahfir/agent-desktop": {
       "category": "AI Agent / Computer Use",
       "capability": "AI AgentからOSのAccessibility Treeを使ってデスクトップアプリを操作する",
       "highlight": "画像のピクセル推測ではなく安定したUI参照を使い、Rust CLI・C-ABI・構造化JSONでAgent操作を堅牢化する",
-      "url": "https://github.com/lahfir/agent-desktop"
+      "url": "https://github.com/lahfir/agent-desktop",
+      "track": "watch"
     },
     "openai/tunnel-client": {
       "category": "AI Agent / MCP・Network",
       "capability": "ローカルやプライベートネットワーク上のMCP ServerをChatGPTやCodexへ安全に接続する",
       "highlight": "MCP Serverを公開Internetへ露出せずSecure MCP Tunnel経由で接続でき、VM・Kubernetes・ローカルPCにも対応する",
-      "url": "https://github.com/openai/tunnel-client"
+      "url": "https://github.com/openai/tunnel-client",
+      "track": "watch"
     },
     "vercel-labs/json-render": {
       "category": "AI / Generative UI",
       "capability": "自然言語から制約付きの動的UIを生成・レンダリングする",
       "highlight": "AIが定義済みComponent Catalog内だけでJSON UIを生成し、React・Vue・Svelte・React Native・3Dなどへ展開できる",
-      "url": "https://github.com/vercel-labs/json-render"
+      "url": "https://github.com/vercel-labs/json-render",
+      "track": "watch"
     },
     "withastro/flue": {
       "category": "AI Agent / Agent Framework",
       "capability": "TypeScriptでSandbox、Skills、Tools、Subagents、永続実行を組み合わせた自律Agentを構築する",
       "highlight": "Agentを関数として定義し、ローカル/Remote SandboxとDurabilityを組み込めるAgent Harness Framework",
-      "url": "https://github.com/withastro/flue"
+      "url": "https://github.com/withastro/flue",
+      "track": "watch"
     },
     "docling-project/docling": {
       "category": "AI / Document AI",
       "capability": "PDFやOffice文書、画像、音声などをLLM・RAG向けの構造化データへ変換する",
       "highlight": "高度なPDFレイアウト・表・式・OCR解析に加え、Markdown/JSON出力、MCP、ローカル実行、動画・音声解析まで対応する",
-      "url": "https://github.com/docling-project/docling"
+      "url": "https://github.com/docling-project/docling",
+      "track": "watch"
     },
     "kerpopule/hermes-jev-skills": {
       "category": "AI Agent / Routing・Skills",
       "capability": "HermesやClaude Code、Codexへ高速なモデルルーティング、メモリ選別、Skill選択、Computer/Browser Useの判断支援を追加する",
       "highlight": "TypeSafeのJevを使い、文章生成ではなく選択・スコアリングなどの小さな判断を高速・低コストに分離する。Hermes向けPluginに加えて汎用SKILL.mdとしても利用できる",
-      "url": "https://github.com/kerpopule/hermes-jev-skills"
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "track": "watch"
     },
     "typesafe-ai/skills": {
       "category": "AI Agent / Skills・Decision",
       "capability": "TypeSafeのSystem Oneモデルを使い、ルーティング、ランキング、抽出、検証などの型付き判断をAgentワークフローへ組み込む",
       "highlight": "Jevなどのモデルを自然言語生成ではなくtyped judgment/probabilityとして使い、LLMのPrompt→Parse処理を小さな決定プリミティブへ置き換える設計",
-      "url": "https://github.com/typesafe-ai/skills"
+      "url": "https://github.com/typesafe-ai/skills",
+      "track": "watch"
     },
     "OpenHands/OpenHands": {
       "category": "Coding Agent / Autonomous Development",
       "capability": "AI Agentがコード理解・編集・コマンド実行・デバッグなどのソフトウェア開発タスクを自律的に進める",
       "highlight": "Agent SDK、CLI、ローカルGUIを備え、ローカル実行から多数Agentのスケールまで扱える代表的なオープンソース開発Agent基盤",
-      "url": "https://github.com/OpenHands/OpenHands"
+      "url": "https://github.com/OpenHands/OpenHands",
+      "track": "watch"
     },
     "TauricResearch/TradingAgents": {
       "category": "Multi-Agent / 金融・投資",
       "capability": "複数のLLM Agentが市場・ニュース・ファンダメンタルズを分析し、議論して投資判断を組み立てる",
       "highlight": "LangGraphベースでAnalyst、Researcher、Trader、Portfolio Managerなどを役割分担し、チェックポイントやバックテストも備える金融Multi-Agentフレームワーク",
-      "url": "https://github.com/TauricResearch/TradingAgents"
+      "url": "https://github.com/TauricResearch/TradingAgents",
+      "track": "watch"
     },
     "danny-avila/LibreChat": {
       "category": "AI / Multi-Model Chat Platform",
       "capability": "OpenAI、Anthropic、Googleなど複数AIプロバイダを1つのセルフホストUIから利用する",
       "highlight": "マルチモデル切替に加え、Agents、MCP、Artifacts、Code Interpreter、検索、マルチユーザー認証まで統合したオープンソースAIチャット基盤",
-      "url": "https://github.com/danny-avila/LibreChat"
+      "url": "https://github.com/danny-avila/LibreChat",
+      "track": "watch"
     },
     "CopilotKit/OpenBot": {
       "category": "AI Agent / Computer Use・Workspace",
       "capability": "AI Agentごとに専用ブラウザ、ファイル領域、ツールを持つ実行用コンピュータを割り当て、Webやソフト操作を行わせる",
       "highlight": "各Botに独立したComputerを与え、操作前のPolicy判定と操作後のAuditを通す設計。AG-UI Agentを自社インフラ上のAI Coworkerとして動かせる",
-      "url": "https://github.com/CopilotKit/OpenBot"
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "track": "watch"
     },
     "vectorize-io/hindsight": {
       "category": "AI Agent / Memory",
       "capability": "AI Agentに長期記憶を追加し、事実・経験・観察・メンタルモデルを蓄積・想起・内省する",
       "highlight": "会話履歴の検索だけでなく継続的に学習するMemory Systemを志向し、MCPやCoding Agentにも統合できる",
-      "url": "https://github.com/vectorize-io/hindsight"
+      "url": "https://github.com/vectorize-io/hindsight",
+      "track": "watch"
     },
     "mvschwarz/openrig": {
       "category": "Multi-Agent / Coding Harness",
       "capability": "Claude CodeやCodexなど複数Coding Agentをチームとして定義し、役割分担・連携・レビューを一つのRigで運用する",
       "highlight": "永続セッション、TUI、キュー、スナップショット・復旧などを持ち、複数Agentを継続的な開発チームとして管理できる",
-      "url": "https://github.com/mvschwarz/openrig"
+      "url": "https://github.com/mvschwarz/openrig",
+      "track": "watch"
     },
     "dream-num/univer": {
       "category": "AI Agent / Office Automation",
       "capability": "Spreadsheet・Docs・SlidesなどのOfficeコンテンツを構造化APIから生成・編集し、AI Agentの作業対象にする",
       "highlight": "ブラウザとNode.jsで同じAPIを利用でき、Agentが内容やレイアウトを検証しながらOffice文書を扱える",
-      "url": "https://github.com/dream-num/univer"
+      "url": "https://github.com/dream-num/univer",
+      "track": "watch"
     },
     "superdesigndev/treg": {
       "category": "AI Agent / Tool Router",
       "capability": "多数の外部APIやチーム内のCLI・Skillを一つの接続先からAgentに提供する",
       "highlight": "ツール探索・呼出し・接続設定をサーバー側へ集約し、チームのAgentから共通利用できる。セルフホストにも対応する",
-      "url": "https://github.com/superdesigndev/treg"
+      "url": "https://github.com/superdesigndev/treg",
+      "track": "watch"
     },
     "google/ax": {
       "category": "AI Agent / Orchestration Runtime",
       "capability": "Agentタスク・Workspace・Modelを宣言的に定義し、隔離Sandbox上で大規模に実行・監視する",
       "highlight": "Kubernetesに似た操作感でTask・Workspace・Modelを管理し、Git・MCP・Skillsの事前配線やsuspend/resume、sshを備える",
-      "url": "https://github.com/google/ax"
+      "url": "https://github.com/google/ax",
+      "track": "watch"
     },
     "Tencent/BrowserSkill": {
       "category": "AI Agent / Browser Automation",
       "capability": "Claude CodeやCodexなどのAgentからChrome・Edgeを操作し、閲覧・フォーム入力・デバッグ・スクリーンショットなどを行う",
       "highlight": "CLIとブラウザ拡張を組み合わせ、専用Agent Window、明示的なタブ借用、操作履歴・監査を提供する",
-      "url": "https://github.com/Tencent/BrowserSkill"
+      "url": "https://github.com/Tencent/BrowserSkill",
+      "track": "watch"
     },
     "NVIDIA/SkillSpector": {
       "category": "AI Agent / Skill Security",
       "capability": "Agent Skillをインストール前に解析し、安全性やSupply Chain上のリスクを検査する",
       "highlight": "Git・URL・ZIP・ローカルSkillを静的解析と任意のLLM解析で検査し、JSON・Markdown・SARIFやMCP ServerでCIへ組み込める",
-      "url": "https://github.com/NVIDIA/SkillSpector"
+      "url": "https://github.com/NVIDIA/SkillSpector",
+      "track": "watch"
     },
     "rohitg00/ai-engineering-from-scratch": {
       "category": "AI / 学習・教材",
       "capability": "AI Engineeringを基礎からLLM、MCP、Agent Engineering、Agent Skillsまで手を動かして学ぶ",
       "highlight": "500超のLessonと再利用可能なPrompt・Skill・Agent・MCP成果物を含み、日本語入口やCoding Agent向けTutor Skillも用意されている",
-      "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
+      "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "track": "watch"
     },
     "stablyai/orca": {
       "category": "Coding Agent / Orchestration・IDE",
       "capability": "Codex、Claude Code、OpenCodeなど複数のCLI Coding Agentを並列worktreeで実行・比較・レビューする",
       "highlight": "Agentごとの独立Git worktree、モバイルからの監視・指示、GitHub/Linear連携、SSH先での実行、AI Diffレビュー、Computer Useまで統合したAgent前提の開発環境",
-      "url": "https://github.com/stablyai/orca"
+      "url": "https://github.com/stablyai/orca",
+      "track": "watch"
     },
     "VectifyAI/PageIndex": {
       "category": "AI / RAG・Document Retrieval",
       "capability": "PDFや長文書を階層ツリーとして索引化し、ベクトル検索ではなくLLMの推論で関連箇所をたどって取得する",
       "highlight": "Vector DBや固定Chunkingを使わず、文書構造とコンテキストを保ったまま検索できるReasoning-based RAG。長い技術文書・規格書・論文・契約書などに向く",
-      "url": "https://github.com/VectifyAI/PageIndex"
+      "url": "https://github.com/VectifyAI/PageIndex",
+      "track": "watch"
     },
     "google/mantis": {
       "category": "Coding Agent / Security・Vulnerability Research",
       "capability": "AI Agentでコードベースの脅威モデル作成、脆弱性仮説生成、検証、再現、修正、再検証までを多段階で実行する",
       "highlight": "Google公開のセキュリティ研究向けAgent Harness。履歴分析、Semantic Index、重複排除、Severity校正、脆弱性チェーン探索まで含む。隔離環境での利用を強く前提とする",
-      "url": "https://github.com/google/mantis"
+      "url": "https://github.com/google/mantis",
+      "track": "watch"
     },
     "Tencent/WeKnora": {
       "category": "AI / Knowledge Platform・RAG",
       "capability": "企業文書を取り込み、RAG検索、Multi-step Agent、Wiki/Knowledge Graph、MCP、長期Memoryまで一つの知識基盤で扱う",
       "highlight": "PDFやOffice文書、複数データソースを統合し、RAG・Agent・Wikiを同じKnowledge Base上で利用できる。Self-host、Ollama、BrowserSkill、Sandbox、RBACにも対応する",
-      "url": "https://github.com/Tencent/WeKnora"
+      "url": "https://github.com/Tencent/WeKnora",
+      "track": "watch"
     },
     "tester-army/e2e": {
       "category": "AI / E2E Testing",
       "capability": "自然言語でWeb・モバイルアプリの操作目標を記述し、Agentが実際に操作してE2Eテストを実行する",
       "highlight": "Agentが成功した操作を記録し、次回以降はアプリが変わるまでモデル呼び出しなしで再生できる。Playwright系WebとiOS/Androidの両方に対応する",
-      "url": "https://github.com/tester-army/e2e"
+      "url": "https://github.com/tester-army/e2e",
+      "track": "watch"
     },
     "pbakaus/impeccable": {
       "category": "Coding Agent / UI・Design Skill",
       "capability": "Coding AgentへUI設計・レビュー・改善・ブラウザ反復のためのデザインSkillとコマンド群を追加する",
       "highlight": "24コマンドと61個の決定論的検出ルールを持ち、AI生成UIにありがちな見た目の癖を抑えつつ、PRODUCT.mdやDESIGN.mdで設計文脈を継続利用する",
-      "url": "https://github.com/pbakaus/impeccable"
+      "url": "https://github.com/pbakaus/impeccable",
+      "track": "watch"
     },
     "thedotmack/claude-mem": {
       "category": "AI Agent / Memory・Context",
       "capability": "Agentの作業内容をセッション横断で圧縮・保存し、後続セッションへ関連コンテキストを再注入する",
       "highlight": "Claude Code向けに始まった永続Memory基盤で、現在はCodex・Gemini・Copilot・OpenCodeなど複数Agentとの併用を意識している",
-      "url": "https://github.com/thedotmack/claude-mem"
+      "url": "https://github.com/thedotmack/claude-mem",
+      "track": "watch"
     },
     "pingdotgg/t3code": {
       "category": "Coding Agent / Control Surface",
       "capability": "ローカルPC上のClaude Code、Codex、Cursor、OpenCodeなど複数Coding AgentをWeb・Desktop・Mobile UIから操作する",
       "highlight": "既存CLI Agentを置き換えずに外側から制御するAgent Harnessの操作面で、スマホからの遠隔操作にも対応する",
-      "url": "https://github.com/pingdotgg/t3code"
+      "url": "https://github.com/pingdotgg/t3code",
+      "track": "watch"
     },
     "openai/plugins": {
       "category": "Coding Agent / Plugins",
       "capability": "Codex向けPluginの公式サンプルと、Skill・MCP・Agent・Command・Hookを組み合わせるPlugin構成例を提供する",
       "highlight": "OpenAI公式のPlugin Catalogで、Figma、Notion、Web/iOS/macOS開発、Expo、Remotion、Google Slidesなど実用的な統合例をまとめている",
-      "url": "https://github.com/openai/plugins"
+      "url": "https://github.com/openai/plugins",
+      "track": "watch"
     },
     "NousResearch/hermes-agent": {
       "category": "AI Agent / Self-Improving Agent",
       "capability": "経験からSkillを生成・改善し、長期Memory、サブAgent、Scheduler、複数メッセージング経路を持つ自律Agentを構築・実行する",
       "highlight": "自己改善ループとAgent-curated Memoryを内蔵し、ローカル・Docker・SSH・Serverlessなど複数実行基盤へ展開できる",
-      "url": "https://github.com/NousResearch/hermes-agent"
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "track": "watch"
     },
     "garrytan/gstack": {
       "category": "Coding Agent / Development Workflow",
       "capability": "Coding Agentへ企画・設計・実装レビュー・QA・セキュリティ・リリースなど役割別の開発Skillを追加する",
       "highlight": "CEO、Eng Manager、Designer、Reviewer、QA、Security、Releaseなどの役割を分け、ソフトウェア開発工程全体をSkillベースで運用する",
-      "url": "https://github.com/garrytan/gstack"
+      "url": "https://github.com/garrytan/gstack",
+      "track": "watch"
     },
     "antirez/ds4": {
       "category": "Local AI / Inference",
       "capability": "DeepSeek V4系やGLM 5系など一部の大型Open-weightモデルをMac、CUDA、ROCmなどのローカル環境で高速推論する",
       "highlight": "汎用ランタイムではなく対象モデルを絞って最適化し、SSD Streaming、複数GPU、RDMA、Pipeline/Tensor Parallelまで扱う",
-      "url": "https://github.com/antirez/ds4"
+      "url": "https://github.com/antirez/ds4",
+      "track": "watch"
     },
     "heygen-com/hyperframes": {
       "category": "AI / Agentic Video",
       "capability": "HTML・CSS・Media・Seekable Animationを使い、Agentから決定論的なMP4動画を生成する",
       "highlight": "Claude Code、Codex、Cursor、Gemini CLI向けSkillを備え、Web表現をそのまま動画生成ワークフローへ使える",
-      "url": "https://github.com/heygen-com/hyperframes"
+      "url": "https://github.com/heygen-com/hyperframes",
+      "track": "watch"
     },
     "cathrynlavery/diagram-design": {
       "category": "Coding Agent / Diagram・Visualization",
       "capability": "Claude CodeやCodexからアーキテクチャ図、フロー、Sequence、ER、Ganttなど多数の編集品質の図をHTML+SVGで生成する",
       "highlight": "Mermaid依存を避け、静的HTMLを基本に必要ならMotionも追加できる。既存のdraw.io・Mermaid・Excalidraw図の再描画にも対応する",
-      "url": "https://github.com/cathrynlavery/diagram-design"
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "track": "watch"
     },
     "ruvnet/ruflo": {
       "category": "Multi-Agent / Agent Harness",
       "capability": "Claude CodeやCodexへ複数AgentのSwarm、長期Memory、Sandbox、学習ループ、Federationを追加して協調実行する",
       "highlight": "100以上の専門Agentを束ねるMeta-Harnessで、タスクルーティング・自己学習・クロスマシン連携まで一つの実行層として扱う",
-      "url": "https://github.com/ruvnet/ruflo"
+      "url": "https://github.com/ruvnet/ruflo",
+      "track": "watch"
+    },
+    "openclaw/openclaw": {
+      "track": "watch",
+      "category": "AI Agent / Personal Assistant",
+      "capability": "ローカル環境を中心にAIアシスタントを構築し、複数モデルやツールを組み合わせて使う",
+      "highlight": "個人向けAI Agentをセルフホストして拡張する基盤として注目。ローカル実行や外部モデル連携の選択肢が広い",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    "ollama/ollama": {
+      "track": "watch",
+      "category": "Local AI / Inference",
+      "capability": "LLMやVLMなどのOpen-weightモデルをローカルPCで簡単に取得・実行する",
+      "highlight": "ローカルAI実行基盤の事実上の定番の一つで、各種Agent・UI・RAG基盤との接続点として重要",
+      "url": "https://github.com/ollama/ollama"
+    },
+    "langchain-ai/langchain": {
+      "track": "watch",
+      "category": "AI Agent / Framework",
+      "capability": "LLMアプリ、Agent、Tool連携、RAGなどを構築するためのフレームワークを提供する",
+      "highlight": "成熟したエコシステムを持ち、Agent開発の比較基準として引き続き重要",
+      "url": "https://github.com/langchain-ai/langchain"
+    },
+    "n8n-io/n8n": {
+      "track": "watch",
+      "category": "Automation / AI Workflow",
+      "capability": "多数のサービスを接続し、AIを含む業務ワークフローをノーコード/ローコードで自動化する",
+      "highlight": "通常の自動化とAI Agentを同じWorkflow上で組み合わせやすく、実運用用途で強い",
+      "url": "https://github.com/n8n-io/n8n"
+    },
+    "langgenius/dify": {
+      "track": "watch",
+      "category": "AI / Application Platform",
+      "capability": "LLMアプリ、RAG、Agent、Workflow、モデル管理を統合して構築・運用する",
+      "highlight": "AIアプリを試作から運用まで一つの基盤で扱える代表的なOSSプラットフォーム",
+      "url": "https://github.com/langgenius/dify"
+    },
+    "langflow-ai/langflow": {
+      "track": "watch",
+      "category": "AI Agent / Visual Workflow",
+      "capability": "LLM・Agent・RAG・Tool連携をビジュアルなフローとして設計・実行する",
+      "highlight": "Agent WorkflowをGUIで構成・確認でき、実験とプロトタイプ作成に向く",
+      "url": "https://github.com/langflow-ai/langflow"
+    },
+    "mem0ai/mem0": {
+      "track": "watch",
+      "category": "AI Agent / Memory",
+      "capability": "AI AgentやLLMアプリへユーザー・会話・タスクの長期Memoryを追加する",
+      "highlight": "Agent Memoryの代表的OSSで、Memory層をモデル本体から分離する設計の比較対象として重要",
+      "url": "https://github.com/mem0ai/mem0"
+    },
+    "browser-use/browser-use": {
+      "track": "watch",
+      "category": "AI Agent / Browser Automation",
+      "capability": "AI AgentがWebブラウザを認識・操作してWebタスクを自動実行する",
+      "highlight": "Browser Agent分野の代表的プロジェクトで、Web操作をAgentの実行能力として組み込む用途に向く",
+      "url": "https://github.com/browser-use/browser-use"
+    },
+    "microsoft/markitdown": {
+      "track": "watch",
+      "category": "AI / Document Processing",
+      "capability": "PDF・Office・画像など各種ファイルをLLMが扱いやすいMarkdownへ変換する",
+      "highlight": "RAGやAgentへの文書入力前処理としてシンプルに使いやすいMicrosoft製ツール",
+      "url": "https://github.com/microsoft/markitdown"
+    },
+    "open-webui/open-webui": {
+      "track": "watch",
+      "category": "Local AI / Chat Platform",
+      "capability": "ローカルモデルや各種AI APIをセルフホストのWeb UIから利用・管理する",
+      "highlight": "Ollamaなどとの組み合わせでローカルAI環境のフロントエンドとして広く利用されている",
+      "url": "https://github.com/open-webui/open-webui"
+    },
+    "browserbase/stagehand": {
+      "track": "watch",
+      "category": "AI Agent / Browser Automation",
+      "capability": "コードによるブラウザ操作とAIによる柔軟なWeb操作を組み合わせて自動化する",
+      "highlight": "決定論的操作とAgent操作の中間を狙う設計で、壊れにくいBrowser Automation基盤として注目",
+      "url": "https://github.com/browserbase/stagehand"
+    },
+    "firecrawl/firecrawl": {
+      "track": "watch",
+      "category": "AI / Web Data",
+      "capability": "Webサイトをクロールし、LLMやRAGで使いやすいMarkdown・構造化データへ変換する",
+      "highlight": "Webデータ取得をAI向けにまとめた代表的基盤で、検索・抽出・Agent連携まで用途が広い",
+      "url": "https://github.com/firecrawl/firecrawl"
+    },
+    "vllm-project/vllm": {
+      "track": "watch",
+      "category": "LLM / Inference",
+      "capability": "LLMを高スループット・高効率でGPU推論・Servingする",
+      "highlight": "OpenAI互換Servingや量子化・分散推論などを備え、大規模モデル運用の中心的OSS",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    "ggml-org/llama.cpp": {
+      "track": "watch",
+      "category": "LLM / Local Inference",
+      "capability": "LLMをCPU・GPUを含む幅広い環境で軽量にローカル推論する",
+      "highlight": "GGUFや量子化を中心とした省メモリ推論エコシステムの基盤で、ローカルAIでは特に重要",
+      "url": "https://github.com/ggml-org/llama.cpp"
+    },
+    "run-llama/llama_index": {
+      "track": "watch",
+      "category": "AI / RAG・Data Framework",
+      "capability": "LLMアプリから文書・DB・APIなどの外部データを検索・利用するためのRAG基盤を構築する",
+      "highlight": "Data/RAG層の代表的フレームワークで、Agentと外部知識を結ぶ設計比較に有用",
+      "url": "https://github.com/run-llama/llama_index"
+    },
+    "infiniflow/ragflow": {
+      "track": "watch",
+      "category": "AI / RAG Platform",
+      "capability": "文書解析・検索・RAG・Agentを統合した知識ベースを構築する",
+      "highlight": "文書理解を重視したRAG基盤として、企業文書や複雑なPDFの活用に向く",
+      "url": "https://github.com/infiniflow/ragflow"
+    },
+    "supermemoryai/supermemory": {
+      "track": "watch",
+      "category": "AI Agent / Memory・Context",
+      "capability": "AI Agentやアプリへ長期MemoryとContext Retrievalを提供する",
+      "highlight": "Agentが必要な記憶を継続利用するContext Engineとして、Memory分野の動向を見る上で重要",
+      "url": "https://github.com/supermemoryai/supermemory"
+    },
+    "ComposioHQ/awesome-claude-skills": {
+      "track": "watch",
+      "category": "AI Agent / Skills Catalog",
+      "capability": "Claude Codeを中心としたAgent SkillやPluginの事例・リソースを一覧化する",
+      "highlight": "Skillエコシステム全体を俯瞰するための索引として有用で、他のCoding Agentへ応用できる事例も多い",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills"
+    },
+    "comfyanonymous/ComfyUI": {
+      "track": "watch",
+      "category": "AI / Image・Video Workflow",
+      "capability": "画像・動画生成モデルをノードベースのWorkflowとして組み合わせて実行する",
+      "highlight": "生成AIの新モデル・新手法をローカルで試す共通基盤として現在も重要度が高い",
+      "url": "https://github.com/comfyanonymous/ComfyUI"
+    },
+    "public-apis/public-apis": {
+      "track": "evergreen",
+      "category": "Developer Resource / API",
+      "capability": "無料・公開APIをカテゴリ別に探す",
+      "highlight": "試作や学習で外部APIを探す際の定番カタログ",
+      "url": "https://github.com/public-apis/public-apis"
+    },
+    "codecrafters-io/build-your-own-x": {
+      "track": "evergreen",
+      "category": "Learning / Build From Scratch",
+      "capability": "DB、OS、Git、コンテナなどを自作して仕組みを学ぶ教材を探す",
+      "highlight": "内部構造を実装から理解したいときの長期的な定番資料",
+      "url": "https://github.com/codecrafters-io/build-your-own-x"
+    },
+    "kamranahmedse/developer-roadmap": {
+      "track": "evergreen",
+      "category": "Learning / Roadmap",
+      "capability": "分野別の学習ロードマップと必要技術を確認する",
+      "highlight": "新しい技術分野へ入るときの全体像把握に便利",
+      "url": "https://github.com/kamranahmedse/developer-roadmap"
+    },
+    "EbookFoundation/free-programming-books": {
+      "track": "evergreen",
+      "category": "Learning / Books",
+      "capability": "多数の言語・技術分野の無料教材や書籍を探す",
+      "highlight": "プログラミング学習資料の巨大な長期保存カタログ",
+      "url": "https://github.com/EbookFoundation/free-programming-books"
+    },
+    "donnemartin/system-design-primer": {
+      "track": "evergreen",
+      "category": "Software Architecture / System Design",
+      "capability": "大規模システム設計の基本概念・設計問題・面接対策を学ぶ",
+      "highlight": "System Designの基礎を体系的に確認できる定番資料",
+      "url": "https://github.com/donnemartin/system-design-primer"
+    },
+    "jwasham/coding-interview-university": {
+      "track": "evergreen",
+      "category": "Learning / CS・Interview",
+      "capability": "CS基礎、アルゴリズム、データ構造を体系的に学習する",
+      "highlight": "コンピュータサイエンス基礎を長期計画で学ぶ定番カリキュラム",
+      "url": "https://github.com/jwasham/coding-interview-university"
+    },
+    "jlevy/the-art-of-command-line": {
+      "track": "evergreen",
+      "category": "Developer Tool / Command Line",
+      "capability": "Unix/Linuxのコマンドライン操作を効率よく学ぶ",
+      "highlight": "シェル操作・テキスト処理・デバッグの実践知を簡潔にまとめた定番資料",
+      "url": "https://github.com/jlevy/the-art-of-command-line"
+    },
+    "practical-tutorials/project-based-learning": {
+      "track": "evergreen",
+      "category": "Learning / Project Based",
+      "capability": "実際のアプリやシステムを作りながら各技術を学ぶ教材を探す",
+      "highlight": "手を動かして学ぶプロジェクト型教材の長期的な索引",
+      "url": "https://github.com/practical-tutorials/project-based-learning"
+    },
+    "getify/You-Dont-Know-JS": {
+      "track": "evergreen",
+      "category": "Learning / JavaScript",
+      "capability": "JavaScriptの言語仕様・挙動を深く理解する",
+      "highlight": "JavaScriptの内部挙動まで掘り下げる定番シリーズ",
+      "url": "https://github.com/getify/You-Dont-Know-JS"
+    },
+    "trimstray/the-book-of-secret-knowledge": {
+      "track": "evergreen",
+      "category": "Developer Resource / Knowledge",
+      "capability": "CLI、ネットワーク、セキュリティ、DevOpsなどの実践的Tipsを参照する",
+      "highlight": "幅広い開発・運用知識を横断的にまとめたリファレンス",
+      "url": "https://github.com/trimstray/the-book-of-secret-knowledge"
+    },
+    "yangshun/tech-interview-handbook": {
+      "track": "evergreen",
+      "category": "Learning / Interview",
+      "capability": "ソフトウェアエンジニア面接のコーディング・設計・行動面接を準備する",
+      "highlight": "技術面接準備の体系的な定番ガイド",
+      "url": "https://github.com/yangshun/tech-interview-handbook"
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "track": "evergreen",
+      "category": "Developer Resource / Self-hosted",
+      "capability": "自分でホストできるOSSサービスを用途別に探す",
+      "highlight": "セルフホスト可能なソフトウェアを探す際の代表的カタログ",
+      "url": "https://github.com/awesome-selfhosted/awesome-selfhosted"
+    },
+    "trekhleb/javascript-algorithms": {
+      "track": "evergreen",
+      "category": "Learning / Algorithms",
+      "capability": "JavaScript実装付きでアルゴリズムとデータ構造を学ぶ",
+      "highlight": "実装を読みながらアルゴリズムを確認できる定番教材",
+      "url": "https://github.com/trekhleb/javascript-algorithms"
+    },
+    "Chalarangelo/30-seconds-of-code": {
+      "track": "evergreen",
+      "category": "Developer Resource / Snippets",
+      "capability": "JavaScript・CSS・Reactなどの短い実装例やパターンを参照する",
+      "highlight": "小さな実装パターンを素早く確認するための長期的リファレンス",
+      "url": "https://github.com/Chalarangelo/30-seconds-of-code"
+    },
+    "github/gitignore": {
+      "track": "evergreen",
+      "category": "Developer Tool / Git",
+      "capability": "言語・IDE・環境別の.gitignoreテンプレートを利用する",
+      "highlight": "GitHub公式の定番テンプレート集で、新規プロジェクト作成時に継続的に使える",
+      "url": "https://github.com/github/gitignore"
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "track": "evergreen",
+      "category": "Learning / Programming",
+      "capability": "Web開発やプログラミングを実践課題で学ぶ",
+      "highlight": "大規模な無料学習カリキュラムとして長期的な参照価値が高い",
+      "url": "https://github.com/freeCodeCamp/freeCodeCamp"
     }
   },
-  "updated_at": "2026-10-05"
+  "updated_at": "2026-10-08",
+  "tracks": {
+    "watch": "最近の注目度・開発活発度・新規性を追跡するリポジトリ",
+    "evergreen": "流行に左右されにくく長期的に参照価値が高い定番リポジトリ"
+  }
 }
