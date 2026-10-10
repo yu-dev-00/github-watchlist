@@ -891,9 +891,16 @@
       "capability": "Web開発やプログラミングを実践課題で学ぶ",
       "highlight": "大規模な無料学習カリキュラムとして長期的な参照価値が高い",
       "url": "https://github.com/freeCodeCamp/freeCodeCamp"
+    },
+    "oh-my-mermaid/oh-my-mermaid": {
+      "track": "watch",
+      "category": "Coding Agent / Architecture Documentation",
+      "capability": "AI Coding Agentでコードベースを解析し、構造・データフロー・外部連携などを階層的なMermaid図とMarkdown文書として生成・閲覧する",
+      "highlight": "図を一枚生成するだけでなく、複雑なノードを再帰的に分解した「上から掘れる」アーキテクチャ文書を.git管理できる。Codex・Claude Code・Cursor・OpenClaw等に対応し、将来は差分解析・Sub-agent並列Scanも計画されている",
+      "url": "https://github.com/oh-my-mermaid/oh-my-mermaid"
     }
   },
-  "updated_at": "2026-10-08",
+  "updated_at": "2026-10-10",
   "tracks": {
     "watch": "最近の注目度・開発活発度・新規性を追跡するリポジトリ",
     "evergreen": "流行に左右されにくく長期的に参照価値が高い定番リポジトリ"
