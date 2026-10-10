@@ -9,7 +9,7 @@
 - `evergreen`: 流行に左右されにくい長期参照用の定番
 - 同じRepoは重複登録せず、重要な変更がある場合のみ説明を更新
 
-最終更新日: 2026-10-08
+最終更新日: 2026-10-10
 
 ## Trending / Watch
 
@@ -126,6 +126,7 @@
 | **supermemoryai/supermemory** | AI Agent / Memory・Context | AI Agentやアプリへ長期MemoryとContext Retrievalを提供する | Agentが必要な記憶を継続利用するContext Engineとして、Memory分野の動向を見る上で重要 | https://github.com/supermemoryai/supermemory |
 | **ComposioHQ/awesome-claude-skills** | AI Agent / Skills Catalog | Claude Codeを中心としたAgent SkillやPluginの事例・リソースを一覧化する | Skillエコシステム全体を俯瞰するための索引として有用で、他のCoding Agentへ応用できる事例も多い | https://github.com/ComposioHQ/awesome-claude-skills |
 | **comfyanonymous/ComfyUI** | AI / Image・Video Workflow | 画像・動画生成モデルをノードベースのWorkflowとして組み合わせて実行する | 生成AIの新モデル・新手法をローカルで試す共通基盤として現在も重要度が高い | https://github.com/comfyanonymous/ComfyUI |
+| **oh-my-mermaid/oh-my-mermaid** | Coding Agent / Architecture Documentation | AI Coding Agentでコードベースを解析し、構造・データフロー・外部連携などを階層的なMermaid図とMarkdown文書として生成・閲覧する | 図を一枚生成するだけでなく、複雑なノードを再帰的に分解した「上から掘れる」アーキテクチャ文書を.git管理できる。Codex・Claude Code・Cursor・OpenClaw等に対応し、将来は差分解析・Sub-agent並列Scanも計画されている | https://github.com/oh-my-mermaid/oh-my-mermaid |
 
 ## Evergreen
 
