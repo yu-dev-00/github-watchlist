@@ -898,9 +898,65 @@
       "capability": "AI Coding Agentでコードベースを解析し、構造・データフロー・外部連携などを階層的なMermaid図とMarkdown文書として生成・閲覧する",
       "highlight": "図を一枚生成するだけでなく、複雑なノードを再帰的に分解した「上から掘れる」アーキテクチャ文書を.git管理できる。Codex・Claude Code・Cursor・OpenClaw等に対応し、将来は差分解析・Sub-agent並列Scanも計画されている",
       "url": "https://github.com/oh-my-mermaid/oh-my-mermaid"
+    },
+    "superdesigndev/superdesign-skill": {
+      "track": "watch",
+      "category": "Coding Agent / Design Skill",
+      "capability": "Claude Code・Codex・CursorなどのCoding Agentに、UI・プレゼン・グラフィックのデザイン判断と反復制作能力を追加する",
+      "highlight": "旧IDE拡張の現行後継。既存コードからデザイン文脈を読み、実在する参考スタイルを集め、分岐可能なデザイン案を生成・改善する",
+      "url": "https://github.com/superdesigndev/superdesign-skill"
+    },
+    "marvkr/better-design": {
+      "track": "watch",
+      "category": "AI Agent / Design MCP",
+      "capability": "AI Coding AgentへDesign System、UI原則、アクセシビリティ、レビュー規則をMCP経由で与える",
+      "highlight": "Linear・Vercel・Stripe等のDesign System文脈、Semantic Token、Component、Icon、WCAG/Visual ReviewまでAgentの自己レビューに組み込める",
+      "url": "https://github.com/marvkr/better-design"
+    },
+    "madebymustafa/design-taste": {
+      "track": "watch",
+      "category": "Coding Agent / Design Skills",
+      "capability": "AI生成UIの画一的な見た目を避けるため、デザイン方向・タイポグラフィ・色・Motionなどを24個のSkillとしてAgentへ追加する",
+      "highlight": "単なるComponent集ではなく「tasteを命令として配布する」設計。Claude Code・Codex・Cursor・OpenCode等へ直接導入できる",
+      "url": "https://github.com/madebymustafa/design-taste"
+    },
+    "DavidHDev/canvas-ui": {
+      "track": "watch",
+      "category": "Frontend / Creative UI・GPU",
+      "capability": "実際のDOM上に液体・ガラス・Shader・3DなどのGPUエフェクトを重ねつつ、下のUIをそのまま操作可能にする",
+      "highlight": "HTML-in-CanvasとWebGL/WebGPUを組み合わせ、React・Vue・Svelte・Solid・Preact・Vanillaへ同じ表現を展開する独自性が高い",
+      "url": "https://github.com/DavidHDev/canvas-ui"
+    },
+    "paper-design/shaders": {
+      "track": "watch",
+      "category": "Frontend / Shader・Visual Effects",
+      "capability": "軽量なCanvas ShaderをReactやVanilla JSから利用し、背景・テクスチャ・マスク表現をアニメーション付きで作る",
+      "highlight": "Paper上で視覚調整したShaderを軽量コードとして書き出せる。ゼロ依存・Apache-2.0でWeb制作へ組み込みやすい",
+      "url": "https://github.com/paper-design/shaders"
+    },
+    "ui-layouts/uilayouts": {
+      "track": "evergreen",
+      "category": "Frontend / UI Components",
+      "capability": "MotionやTailwindを使ったアニメーション付きUI Component・Effect・Blockを再利用する",
+      "highlight": "R3F Blob、Ripple、Sparkles、Drag、Timelineなどクリエイティブ系UIパーツを幅広く集めた実用ライブラリ",
+      "url": "https://github.com/ui-layouts/uilayouts"
+    },
+    "ibelick/motion-primitives": {
+      "track": "evergreen",
+      "category": "Frontend / Motion Components",
+      "capability": "React/Tailwind向けの再利用可能なアニメーションUI部品をCLIで導入する",
+      "highlight": "Text Morph、Dialog、Carousel、Magnetic、Tilt等のMotion Primitiveを個別コピーして使える。現在も更新が続いている",
+      "url": "https://github.com/ibelick/motion-primitives"
+    },
+    "ui-layouts/cursify": {
+      "track": "evergreen",
+      "category": "Frontend / Cursor Effects",
+      "capability": "React・Next.jsサイトへCursor追従、Trail、Hover変形などのマウスカーソル演出を追加する",
+      "highlight": "用途は狭いが、インタラクティブなCursor表現をすぐ導入できる専用Component集として参照価値がある",
+      "url": "https://github.com/ui-layouts/cursify"
     }
   },
-  "updated_at": "2026-10-10",
+  "updated_at": "2026-10-17",
   "tracks": {
     "watch": "最近の注目度・開発活発度・新規性を追跡するリポジトリ",
     "evergreen": "流行に左右されにくく長期的に参照価値が高い定番リポジトリ"
