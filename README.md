@@ -9,7 +9,7 @@
 - `evergreen`: 流行に左右されにくい長期参照用の定番
 - 同じRepoは重複登録せず、重要な変更がある場合のみ説明を更新
 
-最終更新日: 2026-10-10
+最終更新日: 2026-10-17
 
 ## Trending / Watch
 
@@ -127,6 +127,11 @@
 | **ComposioHQ/awesome-claude-skills** | AI Agent / Skills Catalog | Claude Codeを中心としたAgent SkillやPluginの事例・リソースを一覧化する | Skillエコシステム全体を俯瞰するための索引として有用で、他のCoding Agentへ応用できる事例も多い | https://github.com/ComposioHQ/awesome-claude-skills |
 | **comfyanonymous/ComfyUI** | AI / Image・Video Workflow | 画像・動画生成モデルをノードベースのWorkflowとして組み合わせて実行する | 生成AIの新モデル・新手法をローカルで試す共通基盤として現在も重要度が高い | https://github.com/comfyanonymous/ComfyUI |
 | **oh-my-mermaid/oh-my-mermaid** | Coding Agent / Architecture Documentation | AI Coding Agentでコードベースを解析し、構造・データフロー・外部連携などを階層的なMermaid図とMarkdown文書として生成・閲覧する | 図を一枚生成するだけでなく、複雑なノードを再帰的に分解した「上から掘れる」アーキテクチャ文書を.git管理できる。Codex・Claude Code・Cursor・OpenClaw等に対応し、将来は差分解析・Sub-agent並列Scanも計画されている | https://github.com/oh-my-mermaid/oh-my-mermaid |
+| **superdesigndev/superdesign-skill** | Coding Agent / Design Skill | Claude Code・Codex・CursorなどのCoding Agentに、UI・プレゼン・グラフィックのデザイン判断と反復制作能力を追加する | 旧IDE拡張の現行後継。既存コードからデザイン文脈を読み、実在する参考スタイルを集め、分岐可能なデザイン案を生成・改善する | https://github.com/superdesigndev/superdesign-skill |
+| **marvkr/better-design** | AI Agent / Design MCP | AI Coding AgentへDesign System、UI原則、アクセシビリティ、レビュー規則をMCP経由で与える | Linear・Vercel・Stripe等のDesign System文脈、Semantic Token、Component、Icon、WCAG/Visual ReviewまでAgentの自己レビューに組み込める | https://github.com/marvkr/better-design |
+| **madebymustafa/design-taste** | Coding Agent / Design Skills | AI生成UIの画一的な見た目を避けるため、デザイン方向・タイポグラフィ・色・Motionなどを24個のSkillとしてAgentへ追加する | 単なるComponent集ではなく「tasteを命令として配布する」設計。Claude Code・Codex・Cursor・OpenCode等へ直接導入できる | https://github.com/madebymustafa/design-taste |
+| **DavidHDev/canvas-ui** | Frontend / Creative UI・GPU | 実際のDOM上に液体・ガラス・Shader・3DなどのGPUエフェクトを重ねつつ、下のUIをそのまま操作可能にする | HTML-in-CanvasとWebGL/WebGPUを組み合わせ、React・Vue・Svelte・Solid・Preact・Vanillaへ同じ表現を展開する独自性が高い | https://github.com/DavidHDev/canvas-ui |
+| **paper-design/shaders** | Frontend / Shader・Visual Effects | 軽量なCanvas ShaderをReactやVanilla JSから利用し、背景・テクスチャ・マスク表現をアニメーション付きで作る | Paper上で視覚調整したShaderを軽量コードとして書き出せる。ゼロ依存・Apache-2.0でWeb制作へ組み込みやすい | https://github.com/paper-design/shaders |
 
 ## Evergreen
 
@@ -148,3 +153,6 @@
 | **Chalarangelo/30-seconds-of-code** | Developer Resource / Snippets | JavaScript・CSS・Reactなどの短い実装例やパターンを参照する | 小さな実装パターンを素早く確認するための長期的リファレンス | https://github.com/Chalarangelo/30-seconds-of-code |
 | **github/gitignore** | Developer Tool / Git | 言語・IDE・環境別の.gitignoreテンプレートを利用する | GitHub公式の定番テンプレート集で、新規プロジェクト作成時に継続的に使える | https://github.com/github/gitignore |
 | **freeCodeCamp/freeCodeCamp** | Learning / Programming | Web開発やプログラミングを実践課題で学ぶ | 大規模な無料学習カリキュラムとして長期的な参照価値が高い | https://github.com/freeCodeCamp/freeCodeCamp |
+| **ui-layouts/uilayouts** | Frontend / UI Components | MotionやTailwindを使ったアニメーション付きUI Component・Effect・Blockを再利用する | R3F Blob、Ripple、Sparkles、Drag、Timelineなどクリエイティブ系UIパーツを幅広く集めた実用ライブラリ | https://github.com/ui-layouts/uilayouts |
+| **ibelick/motion-primitives** | Frontend / Motion Components | React/Tailwind向けの再利用可能なアニメーションUI部品をCLIで導入する | Text Morph、Dialog、Carousel、Magnetic、Tilt等のMotion Primitiveを個別コピーして使える。現在も更新が続いている | https://github.com/ibelick/motion-primitives |
+| **ui-layouts/cursify** | Frontend / Cursor Effects | React・Next.jsサイトへCursor追従、Trail、Hover変形などのマウスカーソル演出を追加する | 用途は狭いが、インタラクティブなCursor表現をすぐ導入できる専用Component集として参照価値がある | https://github.com/ui-layouts/cursify |
